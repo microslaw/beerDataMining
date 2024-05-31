@@ -1,0 +1,7 @@
+2024-05-31 23:35:25,994 : WARN  : ModalContext :  : Node : GroupBy : 3:7 : No grouping column included. Aggregate complete table.
+2024-05-31 23:35:25,996 : WARN  : ModalContext :  : Node : GroupBy : 3:7 : No grouping column included. Aggregate complete table.
+2024-05-31 23:35:25,997 : WARN  : ModalContext :  : Node : GroupBy : 3:6 : No grouping column included. Aggregate complete table.
+2024-05-31 23:35:25,998 : WARN  : ModalContext :  : Node : GroupBy : 3:6 : No grouping column included. Aggregate complete table.
+2024-05-31 23:35:26,114 : WARN  : ModalContext :  : Node : Missing Value : 3:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-05-31 23:35:26,126 : WARN  : ModalContext :  : Node : Missing Value : 3:22 : Column "UserId" still contains missing values.
+2024-05-31 23:35:26,164 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 3:19 : Only the first 2500 of 73861 rows are displayed.
