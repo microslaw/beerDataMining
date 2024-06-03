@@ -1,0 +1,20 @@
+{
+  "version" : "5.2.3.v202403211026",
+  "projects" : [ {
+    "name" : "projekt",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "projekt"
+    }
+  }, {
+    "name" : "models",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "models"
+    }
+  } ]
+}
