@@ -2,31 +2,31 @@
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="internals">
     <config key="betas">
         <entry key="array-size" type="xint" value="25"/>
-        <entry key="0" type="xdouble" value="0.07164682733121079"/>
-        <entry key="1" type="xdouble" value="-0.020504992331854415"/>
-        <entry key="2" type="xdouble" value="-0.025383156446112057"/>
-        <entry key="3" type="xdouble" value="0.0046650827936417505"/>
-        <entry key="4" type="xdouble" value="-0.015063680525924826"/>
-        <entry key="5" type="xdouble" value="-0.0064191571618258236"/>
-        <entry key="6" type="xdouble" value="8.783748682549054E-5"/>
-        <entry key="7" type="xdouble" value="0.3814385095998169"/>
-        <entry key="8" type="xdouble" value="-0.02188145933624683"/>
-        <entry key="9" type="xdouble" value="2.7409803564735986E-4"/>
-        <entry key="10" type="xdouble" value="0.19041305511399642"/>
-        <entry key="11" type="xdouble" value="-0.30020257097491815"/>
-        <entry key="12" type="xdouble" value="0.11525634188048241"/>
-        <entry key="13" type="xdouble" value="0.05313555434076723"/>
-        <entry key="14" type="xdouble" value="0.05726229611701383"/>
-        <entry key="15" type="xdouble" value="-0.0040980952857120195"/>
-        <entry key="16" type="xdouble" value="0.10195169495229536"/>
-        <entry key="17" type="xdouble" value="-0.014019398305241872"/>
-        <entry key="18" type="xdouble" value="4.946399738988022E-4"/>
-        <entry key="19" type="xdouble" value="0.07966178440297304"/>
-        <entry key="20" type="xdouble" value="0.027816707431525242"/>
-        <entry key="21" type="xdouble" value="0.0023464845221279305"/>
-        <entry key="22" type="xdouble" value="-0.05385006522454816"/>
-        <entry key="23" type="xdouble" value="0.0024491101419918306"/>
-        <entry key="24" type="xdouble" value="-9.066397247137789E-6"/>
+        <entry key="0" type="xdouble" value="0.12286614132911725"/>
+        <entry key="1" type="xdouble" value="0.05102357676909735"/>
+        <entry key="2" type="xdouble" value="-0.3687945710515904"/>
+        <entry key="3" type="xdouble" value="0.6483214090971054"/>
+        <entry key="4" type="xdouble" value="0.05221154959879739"/>
+        <entry key="5" type="xdouble" value="-0.7201414426821899"/>
+        <entry key="6" type="xdouble" value="0.4709652452213394"/>
+        <entry key="7" type="xdouble" value="1.2209455880354745"/>
+        <entry key="8" type="xdouble" value="-5.179847178515771"/>
+        <entry key="9" type="xdouble" value="4.9627070133284334"/>
+        <entry key="10" type="xdouble" value="0.13029929649654903"/>
+        <entry key="11" type="xdouble" value="-0.029334941515269202"/>
+        <entry key="12" type="xdouble" value="0.12173821748257085"/>
+        <entry key="13" type="xdouble" value="-0.36713525178344486"/>
+        <entry key="14" type="xdouble" value="0.9542052301022881"/>
+        <entry key="15" type="xdouble" value="-0.5548810600760885"/>
+        <entry key="16" type="xdouble" value="0.03966369134890504"/>
+        <entry key="17" type="xdouble" value="-0.19906754506701124"/>
+        <entry key="18" type="xdouble" value="0.2135682448402605"/>
+        <entry key="19" type="xdouble" value="0.008046179814350686"/>
+        <entry key="20" type="xdouble" value="-0.03196213613175077"/>
+        <entry key="21" type="xdouble" value="0.03979524260607416"/>
+        <entry key="22" type="xdouble" value="-0.48343120901340964"/>
+        <entry key="23" type="xdouble" value="5.299681191314621"/>
+        <entry key="24" type="xdouble" value="-4.828588983278047"/>
     </config>
     <config key="columnNames">
         <entry key="array-size" type="xint" value="8"/>
@@ -39,101 +39,101 @@
         <entry key="6" type="xstring" value="Efficiency"/>
         <entry key="7" type="xstring" value="Size/boilSize"/>
     </config>
-    <entry key="squaredError" type="xdouble" value="0.22796221732224786"/>
-    <entry key="adjustedSquaredError" type="xdouble" value="0.22770067952499373"/>
+    <entry key="squaredError" type="xdouble" value="0.20662732793834082"/>
+    <entry key="adjustedSquaredError" type="xdouble" value="0.20636944636120402"/>
     <config key="meanValues">
         <entry key="array-size" type="xint" value="8"/>
-        <entry key="0" type="xdouble" value="1.8723460011148968E-15"/>
-        <entry key="1" type="xdouble" value="-1.6281311558284314E-14"/>
-        <entry key="2" type="xdouble" value="1.2796431666031727E-14"/>
-        <entry key="3" type="xdouble" value="9.803494109984334E-15"/>
-        <entry key="4" type="xdouble" value="5.51159171877395E-15"/>
-        <entry key="5" type="xdouble" value="4.811903964342798E-15"/>
-        <entry key="6" type="xdouble" value="2.1019526620831303E-14"/>
-        <entry key="7" type="xdouble" value="-3.241251193765622E-15"/>
+        <entry key="0" type="xdouble" value="0.012298236719771542"/>
+        <entry key="1" type="xdouble" value="0.04605101266553118"/>
+        <entry key="2" type="xdouble" value="0.012986884760697601"/>
+        <entry key="3" type="xdouble" value="0.07206983460504725"/>
+        <entry key="4" type="xdouble" value="0.2711452931858488"/>
+        <entry key="5" type="xdouble" value="0.02550434937313887"/>
+        <entry key="6" type="xdouble" value="0.6635488078959115"/>
+        <entry key="7" type="xdouble" value="0.002602686344815805"/>
     </config>
     <config key="stdErrors">
         <entry key="array-size" type="xint" value="25"/>
-        <entry key="0" type="xdouble" value="0.07453548269421927"/>
-        <entry key="1" type="xdouble" value="0.0316696904857471"/>
-        <entry key="2" type="xdouble" value="0.004678187998357754"/>
-        <entry key="3" type="xdouble" value="0.005994968383016089"/>
-        <entry key="4" type="xdouble" value="0.003836568918312531"/>
-        <entry key="5" type="xdouble" value="0.06652389996042156"/>
-        <entry key="6" type="xdouble" value="0.005568067043265534"/>
-        <entry key="7" type="xdouble" value="0.013986646229460348"/>
-        <entry key="8" type="xdouble" value="0.011365316806928814"/>
-        <entry key="9" type="xdouble" value="0.0027072803466754386"/>
-        <entry key="10" type="xdouble" value="5.658504028374561E-4"/>
-        <entry key="11" type="xdouble" value="0.008612283360585999"/>
-        <entry key="12" type="xdouble" value="0.0013575389255864071"/>
-        <entry key="13" type="xdouble" value="0.007180159955961289"/>
-        <entry key="14" type="xdouble" value="0.003835363051070287"/>
-        <entry key="15" type="xdouble" value="8.242477959273251E-4"/>
-        <entry key="16" type="xdouble" value="5.971490164935873E-4"/>
-        <entry key="17" type="xdouble" value="4.3618169875238904E-5"/>
-        <entry key="18" type="xdouble" value="7.660207275648659E-6"/>
-        <entry key="19" type="xdouble" value="0.0029217459125664962"/>
-        <entry key="20" type="xdouble" value="1.6213862519274305E-4"/>
-        <entry key="21" type="xdouble" value="2.1517013887636095E-4"/>
-        <entry key="22" type="xdouble" value="0.0011998094519424945"/>
-        <entry key="23" type="xdouble" value="3.179543005846442E-6"/>
-        <entry key="24" type="xdouble" value="0.008461004763135441"/>
+        <entry key="0" type="xdouble" value="0.03309046311063372"/>
+        <entry key="1" type="xdouble" value="0.08354032173538341"/>
+        <entry key="2" type="xdouble" value="0.014474033858310302"/>
+        <entry key="3" type="xdouble" value="0.007956606270399947"/>
+        <entry key="4" type="xdouble" value="0.01050328313947325"/>
+        <entry key="5" type="xdouble" value="0.05317392069157774"/>
+        <entry key="6" type="xdouble" value="0.013573501355114061"/>
+        <entry key="7" type="xdouble" value="0.1225815363256266"/>
+        <entry key="8" type="xdouble" value="0.08298593734598392"/>
+        <entry key="9" type="xdouble" value="0.2996769251978828"/>
+        <entry key="10" type="xdouble" value="0.12889994134766877"/>
+        <entry key="11" type="xdouble" value="0.04231685642046947"/>
+        <entry key="12" type="xdouble" value="0.02804346290168003"/>
+        <entry key="13" type="xdouble" value="0.15986916689227457"/>
+        <entry key="14" type="xdouble" value="0.024535024982134775"/>
+        <entry key="15" type="xdouble" value="1.7432708658586262"/>
+        <entry key="16" type="xdouble" value="0.06609741242118486"/>
+        <entry key="17" type="xdouble" value="0.23076549591953827"/>
+        <entry key="18" type="xdouble" value="0.13414911618932165"/>
+        <entry key="19" type="xdouble" value="0.05602501452941538"/>
+        <entry key="20" type="xdouble" value="0.022595657483435717"/>
+        <entry key="21" type="xdouble" value="0.13100376155777707"/>
+        <entry key="22" type="xdouble" value="0.014408997066751009"/>
+        <entry key="23" type="xdouble" value="1.6544599986426805"/>
+        <entry key="24" type="xdouble" value="0.0041779809121441315"/>
     </config>
     <config key="tValues">
         <entry key="array-size" type="xint" value="25"/>
-        <entry key="0" type="xdouble" value="-0.2751037705890475"/>
-        <entry key="1" type="xdouble" value="-0.4756497551721957"/>
-        <entry key="2" type="xdouble" value="81.53552395365861"/>
-        <entry key="3" type="xdouble" value="31.76214501037935"/>
-        <entry key="4" type="xdouble" value="13.849758852797637"/>
-        <entry key="5" type="xdouble" value="1.5325573968596489"/>
-        <entry key="6" type="xdouble" value="14.306901081466393"/>
-        <entry key="7" type="xdouble" value="-3.850105617965993"/>
-        <entry key="8" type="xdouble" value="-2.233387496126578"/>
-        <entry key="9" type="xdouble" value="-2.3710721978640295"/>
-        <entry key="10" type="xdouble" value="-38.67004287091125"/>
-        <entry key="11" type="xdouble" value="-34.85748882216199"/>
-        <entry key="12" type="xdouble" value="42.180960735456345"/>
-        <entry key="13" type="xdouble" value="-1.9525189398604335"/>
-        <entry key="14" type="xdouble" value="7.2526921339983135"/>
-        <entry key="15" type="xdouble" value="2.9713274989549037"/>
-        <entry key="16" type="xdouble" value="7.812259025451897"/>
-        <entry key="17" type="xdouble" value="2.0137820334216725"/>
-        <entry key="18" type="xdouble" value="35.78206513010439"/>
-        <entry key="19" type="xdouble" value="39.44776353917781"/>
-        <entry key="20" type="xdouble" value="-25.275256163300938"/>
-        <entry key="21" type="xdouble" value="2.2988318754724024"/>
-        <entry key="22" type="xdouble" value="1.955714316409965"/>
-        <entry key="23" type="xdouble" value="-2.8514780993579225"/>
-        <entry key="24" type="xdouble" value="8.467886419751906"/>
+        <entry key="0" type="xdouble" value="1.5419420573990326"/>
+        <entry key="1" type="xdouble" value="0.6249862164067205"/>
+        <entry key="2" type="xdouble" value="84.35420284266266"/>
+        <entry key="3" type="xdouble" value="16.376240330162698"/>
+        <entry key="4" type="xdouble" value="-34.95433255566384"/>
+        <entry key="5" type="xdouble" value="0.7459237692658499"/>
+        <entry key="6" type="xdouble" value="0.5927858703398694"/>
+        <entry key="7" type="xdouble" value="-3.943752244458896"/>
+        <entry key="8" type="xdouble" value="-4.444061040294295"/>
+        <entry key="9" type="xdouble" value="-2.40305936870737"/>
+        <entry key="10" type="xdouble" value="-40.18502354896107"/>
+        <entry key="11" type="xdouble" value="-0.6932211888281788"/>
+        <entry key="12" type="xdouble" value="34.025941569617046"/>
+        <entry key="13" type="xdouble" value="-1.2451903574449095"/>
+        <entry key="14" type="xdouble" value="-1.3027146357105428"/>
+        <entry key="15" type="xdouble" value="3.0400790233503554"/>
+        <entry key="16" type="xdouble" value="9.808574728551887"/>
+        <entry key="17" type="xdouble" value="2.0408824263119145"/>
+        <entry key="18" type="xdouble" value="36.99395981353076"/>
+        <entry key="19" type="xdouble" value="2.1729261206822787"/>
+        <entry key="20" type="xdouble" value="-24.556977838899233"/>
+        <entry key="21" type="xdouble" value="1.6302451341908202"/>
+        <entry key="22" type="xdouble" value="2.7618329313080587"/>
+        <entry key="23" type="xdouble" value="-2.918528696516944"/>
+        <entry key="24" type="xdouble" value="29.40801882842078"/>
     </config>
     <config key="pValues">
         <entry key="array-size" type="xint" value="25"/>
-        <entry key="0" type="xdouble" value="0.7832373170652738"/>
-        <entry key="1" type="xdouble" value="0.6343253887513283"/>
+        <entry key="0" type="xdouble" value="0.12309196004148637"/>
+        <entry key="1" type="xdouble" value="0.531982035987431"/>
         <entry key="2" type="xdouble" value="0.0"/>
         <entry key="3" type="xdouble" value="0.0"/>
         <entry key="4" type="xdouble" value="0.0"/>
-        <entry key="5" type="xdouble" value="0.12538941050357488"/>
-        <entry key="6" type="xdouble" value="0.0"/>
-        <entry key="7" type="xdouble" value="1.1817056385776681E-4"/>
-        <entry key="8" type="xdouble" value="0.025526511488706216"/>
-        <entry key="9" type="xdouble" value="0.017739225035812156"/>
+        <entry key="5" type="xdouble" value="0.45571584045898117"/>
+        <entry key="6" type="xdouble" value="0.5533262804705719"/>
+        <entry key="7" type="xdouble" value="8.029052902691625E-5"/>
+        <entry key="8" type="xdouble" value="8.840479063465523E-6"/>
+        <entry key="9" type="xdouble" value="0.016260998498383694"/>
         <entry key="10" type="xdouble" value="0.0"/>
-        <entry key="11" type="xdouble" value="0.0"/>
+        <entry key="11" type="xdouble" value="0.48817293336326406"/>
         <entry key="12" type="xdouble" value="0.0"/>
-        <entry key="13" type="xdouble" value="0.050880557157170436"/>
-        <entry key="14" type="xdouble" value="4.127809205556332E-13"/>
-        <entry key="15" type="xdouble" value="0.0029661491590640132"/>
-        <entry key="16" type="xdouble" value="5.773159728050814E-15"/>
-        <entry key="17" type="xdouble" value="0.044036196197567934"/>
+        <entry key="13" type="xdouble" value="0.21306573791254646"/>
+        <entry key="14" type="xdouble" value="0.19267626641516644"/>
+        <entry key="15" type="xdouble" value="0.0023659888305738175"/>
+        <entry key="16" type="xdouble" value="0.0"/>
+        <entry key="17" type="xdouble" value="0.0412660635999782"/>
         <entry key="18" type="xdouble" value="0.0"/>
-        <entry key="19" type="xdouble" value="0.0"/>
+        <entry key="19" type="xdouble" value="0.029789046982158007"/>
         <entry key="20" type="xdouble" value="0.0"/>
-        <entry key="21" type="xdouble" value="0.021517384153533436"/>
-        <entry key="22" type="xdouble" value="0.05050274197515758"/>
-        <entry key="23" type="xdouble" value="0.004352906072936813"/>
+        <entry key="21" type="xdouble" value="0.10305396370479647"/>
+        <entry key="22" type="xdouble" value="0.005749208514105542"/>
+        <entry key="23" type="xdouble" value="0.0035179360630339662"/>
         <entry key="24" type="xdouble" value="0.0"/>
     </config>
 </config>

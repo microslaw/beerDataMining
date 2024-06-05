@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="mode" type="xstring" value="Z_SCORE"/>
+        <entry key="mode" type="xstring" value="MINMAX"/>
         <entry key="new-min" type="xdouble" value="0.0"/>
         <entry key="new-max" type="xdouble" value="1.0"/>
         <config key="data-column-filter">
@@ -36,7 +36,6 @@
             <config key="datatype">
                 <config key="typelist">
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                 </config>
             </config>
         </config>
@@ -77,14 +76,14 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 70871, Cols: 11"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 73861, Cols: 11"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.data.normalize.NormalizerPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Z-Score (Gaussian) normalization on 9 column(s)"/>
+            <entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 9 column(s)"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -92,6 +91,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ee31dff1-c1ef-4cab-86d6-a5c9f34f7f21"/>
+        <entry key="file_store_id" type="xstring" value="c3b12f0e-16c5-47b0-9464-b74cfc3e349a"/>
     </config>
 </config>
