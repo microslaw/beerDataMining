@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="internals">
+    <config key="betas">
+        <entry key="array-size" type="xint" value="17"/>
+        <entry key="0" type="xdouble" value="0.005635379999172399"/>
+        <entry key="1" type="xdouble" value="-0.16729112355951853"/>
+        <entry key="2" type="xdouble" value="0.004849463953678608"/>
+        <entry key="3" type="xdouble" value="0.04618537738710068"/>
+        <entry key="4" type="xdouble" value="-0.0016987880997261003"/>
+        <entry key="5" type="xdouble" value="0.1379749374705479"/>
+        <entry key="6" type="xdouble" value="-0.007335887905132271"/>
+        <entry key="7" type="xdouble" value="-0.1450245115523218"/>
+        <entry key="8" type="xdouble" value="0.005165871251007286"/>
+        <entry key="9" type="xdouble" value="-0.09303640145456037"/>
+        <entry key="10" type="xdouble" value="0.01118509400024992"/>
+        <entry key="11" type="xdouble" value="0.11030987030818228"/>
+        <entry key="12" type="xdouble" value="-0.011805888274015896"/>
+        <entry key="13" type="xdouble" value="0.24570156148063732"/>
+        <entry key="14" type="xdouble" value="-0.012569954386265755"/>
+        <entry key="15" type="xdouble" value="-1.7730025110227394"/>
+        <entry key="16" type="xdouble" value="0.009497727235731003"/>
+    </config>
+    <config key="columnNames">
+        <entry key="array-size" type="xint" value="8"/>
+        <entry key="0" type="xstring" value="OG"/>
+        <entry key="1" type="xstring" value="FG"/>
+        <entry key="2" type="xstring" value="ABV"/>
+        <entry key="3" type="xstring" value="IBU"/>
+        <entry key="4" type="xstring" value="Color"/>
+        <entry key="5" type="xstring" value="BoilTime"/>
+        <entry key="6" type="xstring" value="BoilGravity"/>
+        <entry key="7" type="xstring" value="Size/boilSize"/>
+    </config>
+    <entry key="squaredError" type="xdouble" value="0.21118055585361228"/>
+    <entry key="adjustedSquaredError" type="xdouble" value="0.21069151714056433"/>
+    <config key="meanValues">
+        <entry key="array-size" type="xint" value="8"/>
+        <entry key="0" type="xdouble" value="-4.5931288379550046E-4"/>
+        <entry key="1" type="xdouble" value="-0.001073227287597157"/>
+        <entry key="2" type="xdouble" value="3.708843576818891E-4"/>
+        <entry key="3" type="xdouble" value="4.7801500502365904E-4"/>
+        <entry key="4" type="xdouble" value="-0.0020289530494888445"/>
+        <entry key="5" type="xdouble" value="9.564520878465308E-4"/>
+        <entry key="6" type="xdouble" value="7.116258052227178E-4"/>
+        <entry key="7" type="xdouble" value="0.002995762762754897"/>
+    </config>
+    <config key="stdErrors">
+        <entry key="array-size" type="xint" value="17"/>
+        <entry key="0" type="xdouble" value="0.08242328177819225"/>
+        <entry key="1" type="xdouble" value="0.04217971643080255"/>
+        <entry key="2" type="xdouble" value="0.007442994447911804"/>
+        <entry key="3" type="xdouble" value="0.007561026997995254"/>
+        <entry key="4" type="xdouble" value="0.01188079884640245"/>
+        <entry key="5" type="xdouble" value="0.0061927943850522485"/>
+        <entry key="6" type="xdouble" value="0.0689614425993367"/>
+        <entry key="7" type="xdouble" value="0.024644870980516605"/>
+        <entry key="8" type="xdouble" value="0.005555246050912787"/>
+        <entry key="9" type="xdouble" value="0.0025155705137256106"/>
+        <entry key="10" type="xdouble" value="5.484131055940521E-4"/>
+        <entry key="11" type="xdouble" value="5.448643500696061E-4"/>
+        <entry key="12" type="xdouble" value="0.0048895123650659076"/>
+        <entry key="13" type="xdouble" value="0.0017921621812429052"/>
+        <entry key="14" type="xdouble" value="0.0035313608667469844"/>
+        <entry key="15" type="xdouble" value="1.3411201473151232E-4"/>
+        <entry key="16" type="xdouble" value="0.00814304202435861"/>
+    </config>
+    <config key="tValues">
+        <entry key="array-size" type="xint" value="17"/>
+        <entry key="0" type="xdouble" value="-2.029658610411953"/>
+        <entry key="1" type="xdouble" value="1.0949665217135722"/>
+        <entry key="2" type="xdouble" value="18.53755748927879"/>
+        <entry key="3" type="xdouble" value="-19.18053084465561"/>
+        <entry key="4" type="xdouble" value="-7.830820356219745"/>
+        <entry key="5" type="xdouble" value="17.812616316543764"/>
+        <entry key="6" type="xdouble" value="3.5628831448343363"/>
+        <entry key="7" type="xdouble" value="-71.94204881106559"/>
+        <entry key="8" type="xdouble" value="0.8729521445556474"/>
+        <entry key="9" type="xdouble" value="-0.6753092749565429"/>
+        <entry key="10" type="xdouble" value="-13.376572934350081"/>
+        <entry key="11" type="xdouble" value="9.48102266251655"/>
+        <entry key="12" type="xdouble" value="2.2875684046049347"/>
+        <entry key="13" type="xdouble" value="-6.587511106739371"/>
+        <entry key="14" type="xdouble" value="-3.559521346184292"/>
+        <entry key="15" type="xdouble" value="70.81936137299205"/>
+        <entry key="16" type="xdouble" value="0.6920484976394643"/>
+    </config>
+    <config key="pValues">
+        <entry key="array-size" type="xint" value="17"/>
+        <entry key="0" type="xdouble" value="0.0424014915306985"/>
+        <entry key="1" type="xdouble" value="0.27354152218815897"/>
+        <entry key="2" type="xdouble" value="0.0"/>
+        <entry key="3" type="xdouble" value="0.0"/>
+        <entry key="4" type="xdouble" value="5.10702591327572E-15"/>
+        <entry key="5" type="xdouble" value="0.0"/>
+        <entry key="6" type="xdouble" value="3.674650105620625E-4"/>
+        <entry key="7" type="xdouble" value="0.0"/>
+        <entry key="8" type="xdouble" value="0.3826972842662477"/>
+        <entry key="9" type="xdouble" value="0.4994853426628456"/>
+        <entry key="10" type="xdouble" value="0.0"/>
+        <entry key="11" type="xdouble" value="0.0"/>
+        <entry key="12" type="xdouble" value="0.022170719434244868"/>
+        <entry key="13" type="xdouble" value="4.55864235249237E-11"/>
+        <entry key="14" type="xdouble" value="3.7219852069636516E-4"/>
+        <entry key="15" type="xdouble" value="0.0"/>
+        <entry key="16" type="xdouble" value="0.4889130992251105"/>
+    </config>
+</config>
