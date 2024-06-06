@@ -1,0 +1,1135 @@
+2024-05-31 23:35:25,994 : WARN  : ModalContext :  : Node : GroupBy : 3:7 : No grouping column included. Aggregate complete table.
+2024-05-31 23:35:25,996 : WARN  : ModalContext :  : Node : GroupBy : 3:7 : No grouping column included. Aggregate complete table.
+2024-05-31 23:35:25,997 : WARN  : ModalContext :  : Node : GroupBy : 3:6 : No grouping column included. Aggregate complete table.
+2024-05-31 23:35:25,998 : WARN  : ModalContext :  : Node : GroupBy : 3:6 : No grouping column included. Aggregate complete table.
+2024-05-31 23:35:26,114 : WARN  : ModalContext :  : Node : Missing Value : 3:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-05-31 23:35:26,126 : WARN  : ModalContext :  : Node : Missing Value : 3:22 : Column "UserId" still contains missing values.
+2024-05-31 23:35:26,164 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 3:19 : Only the first 2500 of 73861 rows are displayed.
+2024-06-02 19:29:50,985 : WARN  : ModalContext :  : Node : GroupBy : 3:7 : No grouping column included. Aggregate complete table.
+2024-06-02 19:29:50,987 : WARN  : ModalContext :  : Node : GroupBy : 3:7 : No grouping column included. Aggregate complete table.
+2024-06-02 19:29:50,989 : WARN  : ModalContext :  : Node : GroupBy : 3:6 : No grouping column included. Aggregate complete table.
+2024-06-02 19:29:50,989 : WARN  : ModalContext :  : Node : GroupBy : 3:6 : No grouping column included. Aggregate complete table.
+2024-06-02 19:29:51,282 : WARN  : ModalContext :  : Node : Missing Value : 3:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-02 19:29:51,302 : WARN  : ModalContext :  : Node : Missing Value : 3:22 : Column "UserId" still contains missing values.
+2024-06-02 19:29:51,369 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 3:19 : Only the first 2500 of 73861 rows are displayed.
+2024-06-02 20:43:54,354 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-02 20:43:54,354 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-02 20:51:22,610 : WARN  : comm-pool-thread-7 :  : Node : Sorter : 3:53 : No selected columns to sort
+2024-06-02 22:47:59,024 : WARN  : comm-pool-thread-10 :  : Node : CSV Writer : 3:55 : Please specify a file
+2024-06-02 22:50:52,266 : WARN  : comm-pool-thread-13 :  : Node : CSV Reader : 4:1 : Please specify a file
+2024-06-02 22:51:44,593 : ERROR : KNIME-Worker-5-CSV Writer 3:55 :  : Node : CSV Writer : 3:55 : Execute failed: Output file 'C:\projects\beerDataMining\projekt\joined.csv' exists and must not be overwritten due to user settings.
+java.io.IOException: Output file 'C:\projects\beerDataMining\projekt\joined.csv' exists and must not be overwritten due to user settings.
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:217)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:167)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:147)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.nio.file.FileAlreadyExistsException: C:\projects\beerDataMining\projekt\joined.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:139)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:214)
+	... 16 more
+2024-06-02 22:57:39,998 : WARN  : comm-pool-thread-16 :  : Node : Math Formula : 4:2 : No configuration available
+2024-06-02 22:57:55,642 : ERROR : KNIME-Worker-8-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: Table schema has changed in C:\projects\beerDataMining\projekt\joined.csv:
+Expected 25 columns but got 12
+Please reconfigure the node or consider enabling the 'Use new schema' option.
+
+java.lang.IllegalStateException: Table schema has changed in C:\projects\beerDataMining\projekt\joined.csv:
+Expected 25 columns but got 12
+Please reconfigure the node or consider enabling the 'Use new schema' option.
+
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableReadFactory.validateIndividualSpecs(DefaultMultiTableReadFactory.java:237)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableReadFactory.createFromConfig(DefaultMultiTableReadFactory.java:214)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.createMultiRead(MultiTableReader.java:127)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.getMultiRead(MultiTableReader.java:201)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:166)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.lang.IllegalStateException: Expected 25 columns but got 12
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableUtils.checkEquals(MultiTableUtils.java:201)
+	at org.knime.base.node.io.filehandling.csv.reader.api.CSVTableReader.checkSpecs(CSVTableReader.java:241)
+	at org.knime.base.node.io.filehandling.csv.reader.api.CSVTableReader.checkSpecs(CSVTableReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableReadFactory.validateIndividualSpecs(DefaultMultiTableReadFactory.java:229)
+	... 18 more
+2024-06-02 22:57:55,644 : WARN  : KNIME-Worker-8-CSV Reader 4:1 :  : Node : Math Formula : 4:2 : No configuration available
+2024-06-02 22:58:18,855 : WARN  : main :  : Node : Math Formula : 4:2 : No configuration available
+2024-06-02 22:58:20,082 : WARN  : KNIME-Worker-9-CSV Reader 4:1 :  : Node : Math Formula : 4:2 : No configuration available
+2024-06-02 23:03:42,152 : WARN  : KNIME-Worker-10-Missing Value 4:5 :  : Node : Missing Value : 4:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-02 23:04:08,955 : WARN  : KNIME-Worker-10-Missing Value 4:5 :  : Node : Missing Value : 4:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-02 23:04:37,850 : WARN  : comm-pool-thread-17 :  : Node : String Manipulation : 4:6 : No expression has been set.
+2024-06-02 23:05:06,510 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:6 : failed to apply settings: Unable to compile expression
+ERROR at line 65
+Syntax error on token "Invalid Character", invalid AssignmentOperator
+  Line : 64    public java.lang.String internalEvaluate() throws Abort {
+  Line : 65  return toEmpty(N\A);
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 65
+Syntax error on token "Invalid Character", invalid AssignmentOperator
+  Line : 64    public java.lang.String internalEvaluate() throws Abort {
+  Line : 65  return toEmpty(N\A);
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 65
+Syntax error on token "Invalid Character", invalid AssignmentOperator
+  Line : 64    public java.lang.String internalEvaluate() throws Abort {
+  Line : 65  return toEmpty(N\A);
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-06-02 23:05:52,154 : WARN  : KNIME-Worker-12-String Manipulation 4:6 :  : Node : String Manipulation : 4:6 : Problems in 73861 rows. First error: Evaluation of expression failed for row "Row0": String "Cream Ale" cannot be cast to double.
+2024-06-02 23:05:52,157 : WARN  : KNIME-Worker-12-String Manipulation 4:6 :  : Node : String Manipulation : 4:6 : Problems in 73861 rows. First error: Evaluation of expression failed for row "Row0": String "Cream Ale" cannot be cast to double.
+Evaluation of expression failed for row "Row0": String "Cream Ale" cannot be cast to double.
+2024-06-02 23:05:52,243 : WARN  : KNIME-Worker-13-Missing Value 4:5 :  : Node : Missing Value : 4:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-02 23:06:24,055 : WARN  : KNIME-Worker-13-String Manipulation 4:6 :  : Node : String Manipulation : 4:6 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2": String "N/A" cannot be cast to double.
+2024-06-02 23:06:24,055 : WARN  : KNIME-Worker-13-String Manipulation 4:6 :  : Node : String Manipulation : 4:6 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2": String "N/A" cannot be cast to double.
+2024-06-02 23:06:24,133 : WARN  : KNIME-Worker-12-Missing Value 4:5 :  : Node : Missing Value : 4:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-02 23:07:01,023 : WARN  : KNIME-Worker-13-String Manipulation 4:6 :  : Node : String Manipulation : 4:6 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2": String "N/A" cannot be cast to double.
+2024-06-02 23:07:01,023 : WARN  : KNIME-Worker-13-String Manipulation 4:6 :  : Node : String Manipulation : 4:6 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2": String "N/A" cannot be cast to double.
+2024-06-02 23:07:01,101 : WARN  : KNIME-Worker-12-Missing Value 4:5 :  : Node : Missing Value : 4:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-02 23:07:54,527 : WARN  : KNIME-Worker-13-String Manipulation 3:57 :  : Node : String Manipulation : 3:57 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+2024-06-02 23:07:54,527 : WARN  : KNIME-Worker-13-String Manipulation 3:57 :  : Node : String Manipulation : 3:57 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+2024-06-02 23:08:09,744 : WARN  : KNIME-Worker-12-Missing Value 4:5 :  : Node : Missing Value : 4:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-02 23:09:33,214 : WARN  : KNIME-Worker-13-Missing Value 4:5 :  : Node : Missing Value : 4:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-02 23:33:37,494 : WARN  : comm-pool-thread-22 :  : Node : Linear Regression Learner : 4:26 : The target is not in the input.
+2024-06-02 23:40:05,043 : WARN  : KNIME-Worker-27-Linear Regression Learner 4:26 :  : LinReg2Learner : Linear Regression Learner : 4:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-02 23:40:05,204 : WARN  : KNIME-Worker-27-Linear Regression Learner 4:26 :  : Node : Linear Regression Learner : 4:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-02 23:43:10,324 : WARN  : comm-pool-thread-28 :  : Node : Polynomial Regression Learner : 4:27 : Target column 'mpg' does not exist.
+2024-06-02 23:47:17,613 : WARN  : KNIME-Worker-44-Linear Regression Learner 4:26 :  : LinReg2Learner : Linear Regression Learner : 4:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-02 23:47:17,786 : WARN  : KNIME-Worker-44-Linear Regression Learner 4:26 :  : Node : Linear Regression Learner : 4:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-02 23:47:44,874 : WARN  : KNIME-Worker-48-Linear Regression Learner 4:26 :  : LinReg2Learner : Linear Regression Learner : 4:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-02 23:47:45,019 : WARN  : KNIME-Worker-48-Linear Regression Learner 4:26 :  : Node : Linear Regression Learner : 4:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-02 23:49:22,689 : WARN  : comm-pool-thread-35 :  : Node : Linear Correlation : 4:53 : Auto configuration: Using all suitable columns (in total 12)
+2024-06-03 00:04:02,057 : WARN  : KNIME-Worker-62-Linear Regression Learner 4:26 :  : LinReg2Learner : Linear Regression Learner : 4:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:04:02,211 : WARN  : KNIME-Worker-62-Linear Regression Learner 4:26 :  : Node : Linear Regression Learner : 4:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:05:58,364 : WARN  : KNIME-Worker-76-Linear Regression Learner 4:55 :  : LinReg2Learner : Linear Regression Learner : 4:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:05:58,514 : WARN  : KNIME-Worker-76-Linear Regression Learner 4:55 :  : Node : Linear Regression Learner : 4:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:14:42,419 : WARN  : comm-pool-thread-43 :  : Node : X-Partitioner : 4:179 : Class column 'Class' does not exist in input table
+2024-06-03 00:14:45,790 : WARN  : main :  : Node : X-Partitioner : 4:179 : Class column 'Class' does not exist in input table
+2024-06-03 00:14:52,787 : WARN  : main :  : Node : Naive Bayes Learner : 4:174 : Classification column not found in input table
+2024-06-03 00:15:02,107 : WARN  : main :  : Node : Naive Bayes Learner : 4:174 : Classification column not found in input table
+2024-06-03 00:15:09,090 : WARN  : main :  : Node : X-Aggregator : 4:178 : No such column: Class
+2024-06-03 00:15:12,055 : WARN  : main :  : Node : X-Aggregator : 4:178 : No such column: Class
+2024-06-03 00:15:19,725 : WARN  : main :  : Node : Scorer : 4:177 : Column 'Class' not found.
+2024-06-03 00:15:50,194 : ERROR : KNIME-Worker-99-Naive Bayes Learner 4:174 :  : Node : Naive Bayes Learner : 4:174 : Execute failed: Class attribute has too many unique values. To avoid this exception increase the maximum number of allowed nominal values in the node dialog
+org.knime.core.node.InvalidSettingsException: Class attribute has too many unique values. To avoid this exception increase the maximum number of allowed nominal values in the node dialog
+	at org.knime.base.node.mine.bayes.naivebayes.datamodel3.NaiveBayesModel.updateModel(NaiveBayesModel.java:410)
+	at org.knime.base.node.mine.bayes.naivebayes.datamodel3.NaiveBayesModel.createModel(NaiveBayesModel.java:364)
+	at org.knime.base.node.mine.bayes.naivebayes.datamodel3.NaiveBayesModel.<init>(NaiveBayesModel.java:239)
+	at org.knime.base.node.mine.bayes.naivebayes.learner3.NaiveBayesLearnerNodeModel3.execute(NaiveBayesLearnerNodeModel3.java:365)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-03 00:17:02,520 : WARN  : KNIME-Worker-108-Naive Bayes Predictor 4:172 :  : Node : Naive Bayes Predictor : 4:172 : Execution canceled
+2024-06-03 00:26:39,809 : WARN  : comm-pool-thread-45 :  : Node : X-Aggregator : 4:178 : No such column: Prediction (Style)
+2024-06-03 00:26:41,945 : WARN  : KNIME-Worker-110-Counting Loop Start 4:175 :  : Node : X-Aggregator : 4:178 : No such column: Prediction (Style)
+2024-06-03 00:26:42,009 : WARN  : KNIME-Worker-111-X-Partitioner 4:179 :  : Node : X-Aggregator : 4:178 : No such column: Prediction (Style)
+2024-06-03 00:26:42,051 : WARN  : KNIME-Worker-112-Linear Regression Learner 4:183 :  : LinReg2Learner : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:26:42,176 : WARN  : KNIME-Worker-112-Linear Regression Learner 4:183 :  : Node : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:26:42,347 : WARN  : KNIME-Worker-113-Regression Predictor 4:184 :  : Node : X-Aggregator : 4:178 : No such column: Prediction (Style)
+2024-06-03 00:27:04,215 : WARN  : main :  : Node : X-Aggregator : 4:178 : No such column: Prediction (Style)
+2024-06-03 00:27:11,180 : WARN  : main :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:27:38,154 : WARN  : KNIME-Worker-120-Linear Regression Learner 4:183 :  : LinReg2Learner : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:27:38,278 : WARN  : KNIME-Worker-120-Linear Regression Learner 4:183 :  : Node : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:27:38,439 : WARN  : KNIME-Worker-121-Regression Predictor 4:184 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:27:38,508 : WARN  : KNIME-Worker-109-X-Partitioner 4:179 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:27:38,554 : WARN  : KNIME-Worker-117-Linear Regression Learner 4:183 :  : LinReg2Learner : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:27:38,686 : WARN  : KNIME-Worker-117-Linear Regression Learner 4:183 :  : Node : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:27:38,856 : ERROR : KNIME-Worker-109-X-Aggregator 4:178 :  : Node : X-Aggregator : 4:178 : Execute failed: Encountered duplicate row ID "Row0"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row0"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:377)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTableAsynchronously(BufferedDataContainerDelegate.java:586)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTable(BufferedDataContainerDelegate.java:537)
+	at org.knime.core.data.container.DataContainer.addRowToTable(DataContainer.java:307)
+	at org.knime.base.node.meta.xvalidation.AggregateOutputNodeModel.execute(AggregateOutputNodeModel.java:295)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row0"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowKeyForDuplicateCheck(BufferedDataContainerDelegate.java:711)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:774)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-06-03 00:27:38,857 : WARN  : KNIME-Worker-109-X-Aggregator 4:178 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:27:44,770 : WARN  : main :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:27:44,771 : WARN  : main :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:27:46,353 : WARN  : KNIME-Worker-115-Linear Regression Learner 4:183 :  : LinReg2Learner : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:27:46,485 : WARN  : KNIME-Worker-115-Linear Regression Learner 4:183 :  : Node : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:27:46,653 : WARN  : KNIME-Worker-116-Regression Predictor 4:184 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:27:46,727 : WARN  : KNIME-Worker-118-X-Partitioner 4:179 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:27:46,772 : WARN  : KNIME-Worker-109-Linear Regression Learner 4:183 :  : LinReg2Learner : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:27:46,922 : WARN  : KNIME-Worker-109-Linear Regression Learner 4:183 :  : Node : Linear Regression Learner : 4:183 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 00:27:47,099 : ERROR : KNIME-Worker-117-X-Aggregator 4:178 :  : Node : X-Aggregator : 4:178 : Execute failed: Encountered duplicate row ID "Row0"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row0"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:377)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTableAsynchronously(BufferedDataContainerDelegate.java:586)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTable(BufferedDataContainerDelegate.java:537)
+	at org.knime.core.data.container.DataContainer.addRowToTable(DataContainer.java:307)
+	at org.knime.base.node.meta.xvalidation.AggregateOutputNodeModel.execute(AggregateOutputNodeModel.java:295)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row0"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowKeyForDuplicateCheck(BufferedDataContainerDelegate.java:711)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:774)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-06-03 00:27:47,100 : WARN  : KNIME-Worker-117-X-Aggregator 4:178 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:28:25,943 : WARN  : main :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:28:25,944 : WARN  : main :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:28:32,916 : WARN  : main :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:28:34,383 : WARN  : KNIME-Worker-120-Regression Predictor 4:184 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:28:34,455 : WARN  : KNIME-Worker-111-X-Partitioner 4:179 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:28:34,783 : ERROR : KNIME-Worker-109-X-Aggregator 4:178 :  : Node : X-Aggregator : 4:178 : Execute failed: Encountered duplicate row ID "Row4"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row4"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:377)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTableAsynchronously(BufferedDataContainerDelegate.java:586)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTable(BufferedDataContainerDelegate.java:537)
+	at org.knime.core.data.container.DataContainer.addRowToTable(DataContainer.java:307)
+	at org.knime.base.node.meta.xvalidation.AggregateOutputNodeModel.execute(AggregateOutputNodeModel.java:295)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row4"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowKeyForDuplicateCheck(BufferedDataContainerDelegate.java:711)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:774)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-06-03 00:28:34,784 : WARN  : KNIME-Worker-109-X-Aggregator 4:178 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:28:59,005 : WARN  : comm-pool-thread-46 :  : Node : Scorer : 4:177 : Column 'Prediction (Style)' not found.
+2024-06-03 00:29:01,449 : WARN  : comm-pool-thread-46 :  : Node : Decision Tree Learner : 4:75 : Class column "Class" not found or incompatible
+2024-06-03 00:29:18,009 : WARN  : main :  : Node : X-Aggregator : 4:178 : No such column: Prediction (ABV)
+2024-06-03 00:29:44,493 : WARN  : KNIME-Worker-122-Decision Tree Predictor 4:76 :  : Node : Decision Tree Predictor : 4:76 : Tree only stored first 10000 (of 63783) rows for HiLiting!
+2024-06-03 00:29:54,756 : WARN  : KNIME-Worker-118-Decision Tree Predictor 4:76 :  : Node : Decision Tree Predictor : 4:76 : Tree only stored first 10000 (of 63784) rows for HiLiting!
+2024-06-03 00:29:54,757 : ERROR : KNIME-Worker-111-X-Aggregator 4:178 :  : Node : X-Aggregator : 4:178 : Execute failed: Encountered duplicate row ID "Row0"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row0"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:377)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTableAsynchronously(BufferedDataContainerDelegate.java:586)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTable(BufferedDataContainerDelegate.java:537)
+	at org.knime.core.data.container.DataContainer.addRowToTable(DataContainer.java:307)
+	at org.knime.base.node.meta.xvalidation.AggregateOutputNodeModel.execute(AggregateOutputNodeModel.java:324)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row0"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowKeyForDuplicateCheck(BufferedDataContainerDelegate.java:711)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:774)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-06-03 08:45:31,447 : WARN  : ModalContext :  : Node : Missing Value : 3:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-03 08:45:31,488 : WARN  : ModalContext :  : Node : Linear Regression Learner : 3:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 08:45:34,696 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 63784) rows for HiLiting!
+2024-06-03 08:45:36,613 : WARN  : ModalContext :  : Node : X-Aggregator : 3:178 : Execute failed: Encountered duplicate row ID "Row0"
+2024-06-03 08:47:20,838 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-03 08:47:20,839 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-03 08:47:20,840 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-03 08:47:20,840 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-03 08:47:20,956 : WARN  : ModalContext :  : Node : Missing Value : 4:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-03 08:47:20,966 : WARN  : ModalContext :  : Node : Missing Value : 4:22 : Column "UserId" still contains missing values.
+2024-06-03 08:47:21,038 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 4:19 : Only the first 2500 of 73861 rows are displayed.
+2024-06-03 08:47:21,050 : WARN  : ModalContext :  : Node : String Manipulation : 4:57 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+2024-06-03 08:47:46,239 : WARN  : KNIME-Worker-2-Decision Tree Predictor 3:76 :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 63783) rows for HiLiting!
+2024-06-03 08:47:56,917 : WARN  : KNIME-Worker-2-Decision Tree Predictor 3:76 :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 63784) rows for HiLiting!
+2024-06-03 08:47:56,922 : ERROR : KNIME-Worker-1-X-Aggregator 3:178 :  : Node : X-Aggregator : 3:178 : Execute failed: Encountered duplicate row ID "Row0"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row0"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:377)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTableAsynchronously(BufferedDataContainerDelegate.java:586)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowToTable(BufferedDataContainerDelegate.java:537)
+	at org.knime.core.data.container.DataContainer.addRowToTable(DataContainer.java:307)
+	at org.knime.base.node.meta.xvalidation.AggregateOutputNodeModel.execute(AggregateOutputNodeModel.java:324)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "Row0"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowKeyForDuplicateCheck(BufferedDataContainerDelegate.java:711)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:774)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-06-03 08:57:13,737 : WARN  : comm-pool-thread-11 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-03 08:57:21,793 : WARN  : KNIME-Worker-4-Linear Regression Learner 3:26 :  : LinReg2Learner : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 08:57:22,117 : WARN  : KNIME-Worker-4-Linear Regression Learner 3:26 :  : Node : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-03 08:57:22,762 : WARN  : KNIME-Worker-5-Regression Predictor 3:48 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values.
+2024-06-03 08:57:22,769 : WARN  : KNIME-Worker-12-Scatter Plot (legacy) 3:188 :  : Node : Scatter Plot (legacy) : 3:188 : Only the first 2500 rows are displayed.
+2024-06-03 08:57:44,027 : WARN  : comm-pool-thread-11 :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values.
+2024-06-03 08:57:46,246 : WARN  : KNIME-Worker-14-Scatter Plot (legacy) 3:189 :  : Node : Scatter Plot (legacy) : 3:189 : Only the first 2500 rows are displayed.
+2024-06-03 08:57:59,176 : WARN  : comm-pool-thread-10 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values.
+2024-06-03 08:58:00,608 : WARN  : KNIME-Worker-13-Scatter Plot (legacy) 3:190 :  : Node : Scatter Plot (legacy) : 3:190 : Only the first 2500 rows are displayed.
+2024-06-03 08:58:13,991 : WARN  : comm-pool-thread-11 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-03 08:58:15,252 : WARN  : KNIME-Worker-8-Scatter Plot (legacy) 3:191 :  : Node : Scatter Plot (legacy) : 3:191 : Only the first 2500 rows are displayed.
+2024-06-03 09:00:54,752 : WARN  : comm-pool-thread-12 :  : Node : Scorer : 3:126 : Column 'Class' not found.
+2024-06-03 09:01:12,640 : WARN  : KNIME-Worker-18-Decision Tree Predictor 3:76 :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 70871) rows for HiLiting!
+2024-06-03 09:04:00,678 : WARN  : KNIME-Worker-22-Decision Tree Predictor 3:76 :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 70871) rows for HiLiting!
+2024-06-03 09:06:58,400 : WARN  : KNIME-Worker-25-Decision Tree Predictor 3:76 :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 70871) rows for HiLiting!
+2024-06-03 09:15:20,323 : WARN  : comm-pool-thread-19 :  : Node : J48 (3.7) : 3:63 : Target column Class not found in DataTableSpec.
+2024-06-03 09:15:25,016 : WARN  : comm-pool-thread-19 :  : Node : Prism (3.7) : 3:65 : Target column Class not found in DataTableSpec.
+2024-06-03 09:15:33,157 : WARN  : comm-pool-thread-19 :  : Node : PART (3.7) : 3:68 : Target column Class not found in DataTableSpec.
+2024-06-03 09:17:08,216 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-03 09:17:08,216 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-03 09:19:16,736 : WARN  : comm-pool-thread-20 :  : Node : One to Many : 3:198 : Possible value domain for column "Style" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-06-03 09:19:26,927 : ERROR : KNIME-Worker-28-J48 (3.7) 3:63 :  : Node : J48 (3.7) : 3:63 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.J48: Cannot handle string class!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.J48: Cannot handle string class!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-03 09:19:34,654 : ERROR : KNIME-Worker-29-J48 (3.7) 3:63 :  : Node : J48 (3.7) : 3:63 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.J48: Cannot handle string class!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.J48: Cannot handle string class!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-03 09:20:20,736 : WARN  : main :  : Node : One to Many : 3:198 : Possible value domain for column "Style" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-06-03 09:21:01,749 : WARN  : KNIME-Worker-30-Domain Calculator 3:199 :  : Node : One to Many : 3:198 : Possible value domain for column "Style" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-06-03 09:21:22,586 : WARN  : KNIME-Worker-31-Domain Calculator 3:199 :  : Node : One to Many : 3:198 : Possible value domain for column "Style" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-06-03 09:22:13,592 : WARN  : comm-pool-thread-20 :  : Node : Weka Predictor (3.7) : 3:64 : Could not find the attribute 'Cream Ale' in the DataTableSpec of the test data
+2024-06-03 09:24:22,380 : WARN  : KNIME-Worker-35-J48 (3.7) 3:63 :  : Node : Weka Predictor (3.7) : 3:64 : Could not find the attribute 'Cream Ale' in the DataTableSpec of the test data
+2024-06-03 09:41:23,437 : ERROR : KNIME-Worker-39-J48 (3.7) 3:63 :  : Node : J48 (3.7) : 3:63 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.J48: Cannot handle string class!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.J48: Cannot handle string class!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-03 09:41:54,343 : ERROR : KNIME-Worker-40-Prism (3.7) 3:65 :  : Node : Prism (3.7) : 3:65 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.rules.Prism: Cannot handle numeric attributes!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.rules.Prism: Cannot handle numeric attributes!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-03 09:41:56,222 : ERROR : KNIME-Worker-41-Prism (3.7) 3:65 :  : Node : Prism (3.7) : 3:65 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.rules.Prism: Cannot handle numeric attributes!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.rules.Prism: Cannot handle numeric attributes!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-03 09:51:13,633 : WARN  : KNIME-Worker-44-J48 (3.7) 3:63 :  : Node : J48 (3.7) : 3:63 : Execution canceled
+2024-06-03 09:51:58,687 : ERROR : KNIME-Worker-46-Prism (3.7) 3:65 :  : Node : Prism (3.7) : 3:65 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.rules.Prism: Cannot handle numeric attributes!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.rules.Prism: Cannot handle numeric attributes!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-03 09:52:39,453 : WARN  : comm-pool-thread-25 :  : Node : PART (3.7) : 3:68 : Target column Class not found in DataTableSpec.
+2024-06-03 10:04:30,912 : WARN  : KNIME-Worker-49-PART (3.7) 3:68 :  : Node : PART (3.7) : 3:68 : Execution canceled
+2024-06-03 10:05:55,732 : WARN  : comm-pool-thread-28 :  : Node : Bagging (3.7) : 3:93 : Target column Class not found in DataTableSpec.
+2024-06-03 10:07:23,081 : WARN  : KNIME-Worker-51-PART (3.7) 3:68 :  : Node : PART (3.7) : 3:68 : Execution canceled
+2024-06-03 10:07:24,651 : WARN  : KNIME-Worker-52-Bagging (3.7) 3:93 :  : Node : Bagging (3.7) : 3:93 : Execution canceled
+2024-06-03 10:07:55,931 : WARN  : main :  : WrappedNodeDialog : Scorer : 3:202 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2240)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor252.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:167)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:138)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:204)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-06-03 10:07:58,215 : WARN  : main :  : WrappedNodeDialog : Scorer : 3:202 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2240)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor252.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:167)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:138)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:204)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-06-03 10:08:15,801 : WARN  : comm-pool-thread-29 :  : Node : AdaBoostM1 (3.7) : 3:97 : Target column Class not found in DataTableSpec.
+2024-06-03 10:17:50,643 : WARN  : comm-pool-thread-36 :  : Node : EM (3.7) : 3:143 : weka.clusterers.EM: Cannot handle string attributes!
+2024-06-03 10:19:34,197 : WARN  : comm-pool-thread-37 :  : Node : Partitioning : 3:205 : No sampling method selected
+2024-06-03 10:20:16,515 : WARN  : KNIME-Worker-64-Decision Tree Predictor 3:76 :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 21262) rows for HiLiting!
+2024-06-03 10:31:19,614 : WARN  : KNIME-Worker-84-Decision Tree Predictor 3:76 :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 21262) rows for HiLiting!
+2024-06-03 10:31:29,437 : WARN  : main :  : WrappedNodeDialog : Partitioning : 3:207 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2240)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:625)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor252.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:167)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:138)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:204)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-06-03 10:31:32,895 : WARN  : main :  : WrappedNodeDialog : Partitioning : 3:207 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2240)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:625)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor252.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:167)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:138)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:204)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-06-03 10:32:58,247 : WARN  : KNIME-Worker-71-PART (3.7) 3:68 :  : Node : PART (3.7) : 3:68 : Execution canceled
+2024-06-03 10:41:17,687 : WARN  : main :  : WrappedNodeDialog : Partitioning : 3:209 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2240)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:625)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor252.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:167)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:138)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:204)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-06-03 10:44:45,512 : WARN  : comm-pool-thread-51 :  : Node : Row Filter : 3:229 : No row filter specified
+2024-06-03 10:47:05,907 : WARN  : comm-pool-thread-55 :  : Node : GroupBy : 3:231 : No grouping column included. Aggregate complete table.
+2024-06-03 10:47:05,908 : WARN  : comm-pool-thread-55 :  : Node : GroupBy : 3:231 : No aggregation column defined
+2024-06-03 10:47:05,908 : WARN  : comm-pool-thread-55 :  : Node : GroupBy : 3:231 : Please select at least one group or aggregation column
+2024-06-03 10:47:14,500 : WARN  : main :  : Node : GroupBy : 3:231 : No aggregation column defined
+2024-06-03 10:47:14,505 : WARN  : main :  : Node : Row Aggregator : 3:230 : Choose at least one aggregation column to aggregate or choose the "Occurrence count" aggregation function.
+2024-06-03 10:48:07,804 : WARN  : main :  : Node : GroupBy : 3:231 : No grouping column included. Aggregate complete table.
+2024-06-03 10:48:18,768 : WARN  : main :  : Node : GroupBy : 3:231 : No aggregation column defined
+2024-06-03 10:48:18,769 : WARN  : main :  : Node : Row Aggregator : 3:230 : Choose at least one aggregation column to aggregate or choose the "Occurrence count" aggregation function.
+2024-06-03 10:48:20,372 : WARN  : KNIME-Worker-125-GroupBy 3:231 :  : Node : Row Aggregator : 3:230 : Choose at least one aggregation column to aggregate or choose the "Occurrence count" aggregation function.
+2024-06-03 10:49:36,848 : WARN  : main :  : Node : GroupBy : 3:231 : No grouping column included. Aggregate complete table.
+2024-06-03 10:50:18,909 : WARN  : main :  : Node : GroupBy : 3:231 : No aggregation column defined
+2024-06-03 10:50:18,910 : WARN  : main :  : Node : Row Aggregator : 3:230 : Choose at least one aggregation column to aggregate or choose the "Occurrence count" aggregation function.
+2024-06-03 10:50:21,858 : WARN  : KNIME-Worker-127-GroupBy 3:231 :  : Node : Row Aggregator : 3:230 : Choose at least one aggregation column to aggregate or choose the "Occurrence count" aggregation function.
+2024-06-03 10:51:11,112 : WARN  : comm-pool-thread-59 :  : Node : Row Filter : 3:232 : No row filter specified
+2024-06-03 10:54:10,732 : WARN  : comm-pool-thread-60 :  : Node : Top k Row Filter : 3:233 : No columns have been specified to select the top rows of. Set in the node configuration.
+2024-06-03 10:56:34,617 : WARN  : comm-pool-thread-60 :  : Node : Row Filter : 3:235 : No row filter specified
+2024-06-03 10:56:58,801 : WARN  : comm-pool-thread-60 :  : Node : Row Filter : 3:235 : No row filter specified
+2024-06-03 11:00:16,227 : WARN  : comm-pool-thread-61 :  : Node : Reference Row Filter : 3:237 : Using string representation of data table column Style for RowID comparison.
+2024-06-03 11:00:18,822 : WARN  : KNIME-Worker-136-Reference Row Filter 3:237 :  : Node : Reference Row Filter : 3:237 : Node created an empty data table.
+2024-06-03 11:00:55,775 : WARN  : main :  : WrappedNodeDialog : GroupBy : 3:231 : failed to apply settings: Duplicate column names: OG. Not possible with 'Keep original name(s)' option
+org.knime.core.node.InvalidSettingsException: Duplicate column names: OG. Not possible with 'Keep original name(s)' option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:433)
+	at org.knime.core.node.Node.validateSettings(Node.java:719)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:691)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1196)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1062)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2227)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:635)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor252.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:167)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:138)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:204)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-06-03 11:01:01,644 : WARN  : main :  : WrappedNodeDialog : GroupBy : 3:231 : failed to apply settings: Duplicate column names: BrewMethod. Not possible with 'Keep original name(s)' option
+org.knime.core.node.InvalidSettingsException: Duplicate column names: BrewMethod. Not possible with 'Keep original name(s)' option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:433)
+	at org.knime.core.node.Node.validateSettings(Node.java:719)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:691)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1196)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1062)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2227)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:635)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor252.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:167)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:138)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:204)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-06-03 11:06:09,987 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-03 11:06:09,987 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-03 11:10:34,997 : ERROR : ModalContext :  : SaveProject :  :  : Workflow save attempt: Saving the workflow didn't work: Execution canceled
+org.knime.core.node.CanceledExecutionException: Execution canceled
+	at org.knime.core.util.ProgressMonitorAdapter.checkCanceled(ProgressMonitorAdapter.java:97)
+	at org.knime.core.node.DefaultNodeProgressMonitor$SubNodeProgressMonitor.checkCanceled(DefaultNodeProgressMonitor.java:440)
+	at org.knime.core.node.DefaultNodeProgressMonitor$SubNodeProgressMonitor.checkCanceled(DefaultNodeProgressMonitor.java:440)
+	at org.knime.core.node.ExecutionMonitor.checkCanceled(ExecutionMonitor.java:113)
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.saveInternals(WekaClassifierNodeModel.java:381)
+	at org.knime.core.node.Node.saveInternals(Node.java:2461)
+	at org.knime.core.node.FileNodePersistor.saveNodeInternDirectory(FileNodePersistor.java:1463)
+	at org.knime.core.node.FileNodePersistor.save(FileNodePersistor.java:1189)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.save(FileNativeNodeContainerPersistor.java:554)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.save(FileSingleNodeContainerPersistor.java:640)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.saveNodeContainer(FileWorkflowPersistor.java:2308)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.saveContent(FileWorkflowPersistor.java:2056)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.save(FileWorkflowPersistor.java:1947)
+	at org.knime.core.node.workflow.WorkflowManager.save(WorkflowManager.java:9440)
+	at org.knime.core.node.workflow.WorkflowManager.save(WorkflowManager.java:9389)
+	at org.knime.ui.java.api.SaveProject.saveRegularWorkflow(SaveProject.java:214)
+	at org.knime.ui.java.api.SaveProject.saveLocalProject(SaveProject.java:189)
+	at org.knime.ui.java.api.SaveProject.saveProject(SaveProject.java:180)
+	at org.knime.ui.java.api.SaveProject.lambda$4(SaveProject.java:163)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2024-06-05 21:17:44,531 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-06-05 21:17:44,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-06-05 21:17:44,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : ˝Ądany dost©p do rejestru jest niedozwolony.
+2024-06-05 21:17:44,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-06-05 21:17:44,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-06-05 21:17:44,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-06-05 21:17:44,533 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-06-05 21:17:44,533 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-06-05 21:17:44,533 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-06-05 21:17:44,533 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-06-05 21:18:07,104 : WARN  : ModalContext :  : Node : Missing Value : 3:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-05 21:18:07,318 : WARN  : ModalContext :  : Node : Linear Regression Learner : 3:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:18:07,927 : WARN  : ModalContext :  : Node : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:18:08,385 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Only the first 2500 rows are displayed.
+2024-06-05 21:18:08,430 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Only the first 2500 rows are displayed.
+2024-06-05 21:18:11,054 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Only the first 2500 rows are displayed.
+2024-06-05 21:18:11,147 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Only the first 2500 rows are displayed.
+2024-06-05 21:18:11,223 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 3:76 : Tree only stored first 10000 (of 21262) rows for HiLiting!
+2024-06-05 21:23:10,881 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-05 21:23:10,882 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-05 21:23:10,885 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-05 21:23:10,885 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-05 21:23:11,625 : WARN  : ModalContext :  : Node : Missing Value : 4:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-05 21:23:11,676 : WARN  : ModalContext :  : Node : Missing Value : 4:22 : Column "UserId" still contains missing values.
+2024-06-05 21:23:11,832 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 4:19 : Only the first 2500 of 73861 rows are displayed.
+2024-06-05 21:23:11,872 : WARN  : ModalContext :  : Node : String Manipulation : 4:57 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+2024-06-05 21:28:03,762 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:28:03,762 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:30:28,020 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:30:28,021 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:30:28,024 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:30:28,024 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:30:35,999 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:30:36,000 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:30:36,002 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:30:36,003 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:35:59,937 : WARN  : comm-pool-thread-8 :  : Node : Numeric Scorer : 3:244 : No columns selected for reference
+2024-06-05 21:36:01,656 : WARN  : comm-pool-thread-8 :  : Node : Numeric Scorer : 3:243 : No columns selected for reference
+2024-06-05 21:36:05,407 : WARN  : comm-pool-thread-8 :  : Node : Numeric Scorer : 3:242 : No columns selected for reference
+2024-06-05 21:36:08,011 : WARN  : comm-pool-thread-8 :  : Node : Numeric Scorer : 3:241 : No columns selected for reference
+2024-06-05 21:36:28,025 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:36:28,026 : WARN  : main :  : Node : Numeric Scorer : 3:242 : No columns selected for reference
+2024-06-05 21:36:28,026 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:36:28,027 : WARN  : main :  : Node : Numeric Scorer : 3:241 : No columns selected for reference
+2024-06-05 21:36:28,028 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:36:28,029 : WARN  : main :  : Node : Numeric Scorer : 3:244 : No columns selected for reference
+2024-06-05 21:36:28,029 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:36:28,029 : WARN  : main :  : Node : Numeric Scorer : 3:243 : No columns selected for reference
+2024-06-05 21:36:33,366 : WARN  : KNIME-Worker-2-Missing Value 3:5 :  : Node : Missing Value : 3:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-05 21:36:33,841 : WARN  : KNIME-Worker-3-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:36:33,842 : WARN  : KNIME-Worker-3-Normalizer 3:24 :  : Node : Numeric Scorer : 3:242 : No columns selected for reference
+2024-06-05 21:36:33,842 : WARN  : KNIME-Worker-3-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:36:33,842 : WARN  : KNIME-Worker-3-Normalizer 3:24 :  : Node : Numeric Scorer : 3:241 : No columns selected for reference
+2024-06-05 21:36:33,844 : WARN  : KNIME-Worker-3-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:36:33,844 : WARN  : KNIME-Worker-3-Normalizer 3:24 :  : Node : Numeric Scorer : 3:244 : No columns selected for reference
+2024-06-05 21:36:33,844 : WARN  : KNIME-Worker-3-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:36:33,844 : WARN  : KNIME-Worker-3-Normalizer 3:24 :  : Node : Numeric Scorer : 3:243 : No columns selected for reference
+2024-06-05 21:36:33,938 : WARN  : KNIME-Worker-3-Linear Regression Learner 3:26 :  : LinReg2Learner : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:36:34,266 : WARN  : KNIME-Worker-3-Linear Regression Learner 3:26 :  : Node : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:36:35,222 : WARN  : KNIME-Worker-2-Regression Predictor 3:48 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 21:36:35,222 : WARN  : KNIME-Worker-2-Regression Predictor 3:48 :  : Node : Numeric Scorer : 3:244 : No columns selected for reference
+2024-06-05 21:37:52,051 : WARN  : comm-pool-thread-8 :  : Node : Numeric Scorer : 3:241 : No columns selected for reference
+2024-06-05 21:37:54,653 : WARN  : KNIME-Worker-10-Regression Predictor 3:59 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 21:37:54,654 : WARN  : KNIME-Worker-10-Regression Predictor 3:59 :  : Node : Numeric Scorer : 3:241 : No columns selected for reference
+2024-06-05 21:40:26,096 : WARN  : comm-pool-thread-10 :  : Node : Numeric Scorer : 3:242 : No columns selected for reference
+2024-06-05 21:40:41,496 : WARN  : KNIME-Worker-31-Linear Regression Learner 3:55 :  : LinReg2Learner : Linear Regression Learner : 3:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:40:41,668 : WARN  : KNIME-Worker-31-Linear Regression Learner 3:55 :  : Node : Linear Regression Learner : 3:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:40:42,129 : WARN  : KNIME-Worker-32-Regression Predictor 3:56 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 21:43:10,340 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-05 21:43:10,341 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-05 21:43:10,341 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-05 21:43:10,341 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-05 21:43:10,410 : WARN  : ModalContext :  : Node : Missing Value : 4:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-05 21:43:10,417 : WARN  : ModalContext :  : Node : Missing Value : 4:22 : Column "UserId" still contains missing values.
+2024-06-05 21:43:10,461 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 4:19 : Only the first 2500 of 73861 rows are displayed.
+2024-06-05 21:43:10,469 : WARN  : ModalContext :  : Node : String Manipulation : 4:57 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+2024-06-05 21:48:20,317 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:48:20,317 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:49:14,081 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:49:14,081 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:52:12,432 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:52:12,432 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:52:42,186 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:52:42,186 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:52:42,186 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:54:18,075 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:54:18,076 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:54:18,076 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length') (source: http://org.knime.core.ui.view/uiext/tableview/TableView.umd.js; line: 67)
+2024-06-05 21:55:15,150 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:55:15,150 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:55:15,152 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:55:15,153 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:55:23,088 : WARN  : KNIME-Worker-77-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:55:23,089 : WARN  : KNIME-Worker-77-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:55:23,090 : WARN  : KNIME-Worker-77-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:55:23,090 : WARN  : KNIME-Worker-77-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:55:23,583 : WARN  : KNIME-Worker-80-Regression Predictor 3:59 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 21:56:29,406 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:56:29,407 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:56:29,408 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:56:29,409 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:56:50,657 : WARN  : comm-pool-thread-16 :  : Node : Numeric Scorer : 3:247 : No such column in input table: Prediction (ABV)
+2024-06-05 21:56:54,000 : WARN  : comm-pool-thread-16 :  : Node : Numeric Scorer : 3:246 : No such column in input table: Prediction (ABV)
+2024-06-05 21:57:00,512 : WARN  : KNIME-Worker-83-Missing Value 3:5 :  : Node : Missing Value : 3:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-05 21:57:00,747 : WARN  : KNIME-Worker-84-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:57:00,748 : WARN  : KNIME-Worker-84-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:57:00,749 : WARN  : KNIME-Worker-84-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:57:00,749 : WARN  : KNIME-Worker-84-Normalizer 3:24 :  : Node : Numeric Scorer : 3:247 : No such column in input table: Prediction (ABV)
+2024-06-05 21:57:00,749 : WARN  : KNIME-Worker-84-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:57:00,750 : WARN  : KNIME-Worker-84-Normalizer 3:24 :  : Node : Numeric Scorer : 3:246 : No such column in input table: Prediction (ABV)
+2024-06-05 21:57:00,823 : WARN  : KNIME-Worker-86-Linear Regression Learner 3:55 :  : LinReg2Learner : Linear Regression Learner : 3:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:57:01,077 : WARN  : KNIME-Worker-86-Linear Regression Learner 3:55 :  : Node : Linear Regression Learner : 3:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:57:01,472 : WARN  : KNIME-Worker-87-Regression Predictor 3:56 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 21:58:01,211 : WARN  : KNIME-Worker-82-Regression Predictor 3:50 :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 21:58:32,008 : WARN  : KNIME-Worker-107-Linear Regression Learner 3:26 :  : LinReg2Learner : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:58:32,157 : WARN  : KNIME-Worker-107-Linear Regression Learner 3:26 :  : Node : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:58:32,542 : WARN  : KNIME-Worker-108-Regression Predictor 3:48 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 21:59:20,745 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:59:20,745 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:59:20,747 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:59:20,748 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:59:28,644 : WARN  : KNIME-Worker-118-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:59:28,645 : WARN  : KNIME-Worker-118-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:59:28,646 : WARN  : KNIME-Worker-118-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:59:28,646 : WARN  : KNIME-Worker-118-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 21:59:29,003 : WARN  : KNIME-Worker-112-Regression Predictor 3:59 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 21:59:38,848 : WARN  : KNIME-Worker-125-Linear Regression Learner 3:55 :  : LinReg2Learner : Linear Regression Learner : 3:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:59:39,014 : WARN  : KNIME-Worker-125-Linear Regression Learner 3:55 :  : Node : Linear Regression Learner : 3:55 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 21:59:39,484 : WARN  : KNIME-Worker-82-Regression Predictor 3:56 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 22:00:00,107 : WARN  : KNIME-Worker-126-Regression Predictor 3:50 :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 22:00:21,000 : WARN  : KNIME-Worker-113-Linear Regression Learner 3:26 :  : LinReg2Learner : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 22:00:21,334 : WARN  : KNIME-Worker-113-Linear Regression Learner 3:26 :  : Node : Linear Regression Learner : 3:26 : Column "Style" has too many different values - will be ignored during training
+2024-06-05 22:00:21,729 : WARN  : KNIME-Worker-122-Regression Predictor 3:48 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 22:03:15,384 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:03:15,384 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:03:15,386 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:03:15,387 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:03:19,020 : WARN  : KNIME-Worker-127-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:03:19,021 : WARN  : KNIME-Worker-127-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:03:19,023 : WARN  : KNIME-Worker-127-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:03:19,023 : WARN  : KNIME-Worker-127-Normalizer 3:24 :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:03:19,429 : WARN  : KNIME-Worker-130-Regression Predictor 3:59 :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-05 22:03:19,430 : WARN  : KNIME-Worker-131-Numeric Scorer 3:241 :  : Node : Numeric Scorer : 3:241 : Can't calculate Mean Absolute Percentage error: target value is 0! Row1248
+2024-06-05 22:09:56,981 : WARN  : comm-pool-thread-22 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:10:01,587 : WARN  : comm-pool-thread-22 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:10:05,892 : WARN  : comm-pool-thread-22 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:10:09,580 : WARN  : comm-pool-thread-22 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:10:16,675 : WARN  : KNIME-Worker-182-Numeric Scorer 3:263 :  : Node : Numeric Scorer : 3:263 : Can't calculate Mean Absolute Percentage error: target value is 0! Row3965
+2024-06-05 22:11:36,962 : WARN  : comm-pool-thread-23 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:11:43,746 : WARN  : comm-pool-thread-23 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:11:46,566 : WARN  : comm-pool-thread-23 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:11:49,442 : WARN  : comm-pool-thread-23 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:11:52,521 : WARN  : comm-pool-thread-23 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:11:57,246 : WARN  : comm-pool-thread-23 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:12:00,327 : WARN  : comm-pool-thread-23 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:12:03,026 : WARN  : comm-pool-thread-23 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:15:01,651 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:15:01,652 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:15:01,652 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:15:01,652 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:15:07,582 : WARN  : KNIME-Worker-221-Missing Value 3:252 :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-05 22:15:07,725 : WARN  : KNIME-Worker-223-Reference Row Filter 3:255 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:15:07,725 : WARN  : KNIME-Worker-223-Reference Row Filter 3:255 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:15:07,725 : WARN  : KNIME-Worker-223-Reference Row Filter 3:255 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:15:07,725 : WARN  : KNIME-Worker-223-Reference Row Filter 3:255 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:15:07,865 : WARN  : KNIME-Worker-229-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:15:07,865 : WARN  : KNIME-Worker-229-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:15:07,865 : WARN  : KNIME-Worker-229-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:15:07,866 : WARN  : KNIME-Worker-229-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:23:36,280 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:23:52,896 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:25:00,317 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:25:02,682 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:25:05,982 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:25:13,072 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:25:18,101 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:25:23,592 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:25:26,596 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:25:50,728 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:25:50,728 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:25:50,728 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:25:50,728 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:27:00,817 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:27:00,818 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:27:00,818 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:27:00,818 : WARN  : comm-pool-thread-25 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:30:10,318 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:30:10,319 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:30:10,319 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:30:10,319 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-05 22:32:39,464 : WARN  : KNIME-Worker-270-Reference Row Filter 3:255 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:32:39,465 : WARN  : KNIME-Worker-270-Reference Row Filter 3:255 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:32:39,465 : WARN  : KNIME-Worker-270-Reference Row Filter 3:255 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:32:39,465 : WARN  : KNIME-Worker-270-Reference Row Filter 3:255 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:32:39,653 : WARN  : KNIME-Worker-271-Missing Value 3:252 :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-05 22:32:39,809 : WARN  : KNIME-Worker-272-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:32:39,810 : WARN  : KNIME-Worker-272-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:32:39,810 : WARN  : KNIME-Worker-272-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:32:39,810 : WARN  : KNIME-Worker-272-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:37:35,932 : WARN  : KNIME-Worker-307-Decision Tree Predictor 3:305 :  : Node : Decision Tree Predictor : 3:305 : Tree only stored first 10000 (of 11068) rows for HiLiting!
+2024-06-05 22:39:56,887 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:39:56,887 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:39:56,888 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:39:56,888 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:40:02,124 : WARN  : KNIME-Worker-323-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:40:02,124 : WARN  : KNIME-Worker-323-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:40:02,124 : WARN  : KNIME-Worker-323-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:40:02,125 : WARN  : KNIME-Worker-323-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:45:48,921 : WARN  : KNIME-Worker-367-Decision Tree Predictor 3:305 :  : Node : Decision Tree Predictor : 3:305 : Tree only stored first 10000 (of 11491) rows for HiLiting!
+2024-06-05 22:54:46,837 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:54:46,838 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:54:46,838 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:54:46,838 : WARN  : main :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-05 22:55:17,832 : WARN  : comm-pool-thread-32 :  : Node : CSV Writer : 3:306 : Please specify a file
+2024-06-05 22:56:16,840 : WARN  : KNIME-Worker-373-Missing Value 3:252 :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-05 22:56:16,978 : WARN  : KNIME-Worker-374-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-05 22:56:16,978 : WARN  : KNIME-Worker-374-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-05 22:56:16,978 : WARN  : KNIME-Worker-374-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-05 22:56:16,979 : WARN  : KNIME-Worker-374-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
