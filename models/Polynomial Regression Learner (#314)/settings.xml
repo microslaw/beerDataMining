@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="degree" type="xint" value="2"/>
+        <entry key="degree" type="xint" value="4"/>
         <entry key="targetColumn" type="xstring" value="OG"/>
         <entry key="maxViewRows" type="xint" value="10000"/>
         <entry key="missing_value_handling" type="xstring" value="fail"/>
@@ -77,12 +77,12 @@
             <entry key="index" type="xint" value="3"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 17, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 33, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_3"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="25e496a4-a84a-49d7-902b-d4b9649fce84"/>
+        <entry key="file_store_id" type="xstring" value="1ae002ae-6303-40f5-a43b-b08f8be53169"/>
     </config>
 </config>

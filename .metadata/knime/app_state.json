@@ -16,5 +16,13 @@
       "spaceId" : "local",
       "relativePath" : "projekt"
     }
+  }, {
+    "name" : "final",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "final"
+    }
   } ]
 }

@@ -1133,3 +1133,180 @@ Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast
 2024-06-05 22:56:16,978 : WARN  : KNIME-Worker-374-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
 2024-06-05 22:56:16,978 : WARN  : KNIME-Worker-374-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
 2024-06-05 22:56:16,979 : WARN  : KNIME-Worker-374-Normalizer 3:248 :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-07 17:08:52,597 : WARN  : ModalContext :  : Node : Statistics : 3:382 : Maximum number of unique possible values (1000) exceeds for column(s): "IBU","Color","Size/boilSize","ABV","OG"
+2024-06-07 17:11:00,282 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-07 17:11:00,282 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-07 17:11:00,283 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-07 17:11:00,284 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-07 17:11:00,285 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-07 17:11:00,286 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-07 17:11:00,287 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-07 17:11:00,287 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-07 17:11:00,291 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:241 : Can't calculate Mean Absolute Percentage error: target value is 0! Row1248
+2024-06-07 17:11:00,305 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-07 17:11:33,469 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-07 17:11:33,470 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-07 17:11:33,471 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-07 17:11:33,471 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-07 17:11:33,472 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-07 17:11:33,473 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-07 17:11:33,503 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-07 17:11:33,504 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-08 15:56:02,864 : WARN  : ModalContext :  : Node : Statistics : 3:382 : Maximum number of unique possible values (1000) exceeds for column(s): "IBU","Color","Size/boilSize","ABV","OG"
+2024-06-08 15:58:15,342 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-08 15:58:15,343 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-08 15:58:15,344 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-08 15:58:15,344 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-08 15:58:15,345 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-08 15:58:15,346 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-08 15:58:15,347 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-08 15:58:15,347 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-08 15:58:15,351 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:241 : Can't calculate Mean Absolute Percentage error: target value is 0! Row1248
+2024-06-08 15:58:15,365 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-08 15:58:50,695 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-08 15:58:50,695 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-08 15:58:50,697 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-08 15:58:50,698 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-08 15:58:50,699 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-08 15:58:50,699 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-08 15:58:50,728 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-08 15:58:50,729 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-08 15:58:51,478 : WARN  : main :  : LongStartupHandler :  :  : Startup took 95033 seconds.
+2024-06-08 16:01:08,931 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-08 16:01:08,931 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-08 16:01:08,933 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-08 16:01:08,933 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-08 16:01:09,042 : WARN  : ModalContext :  : Node : Missing Value : 4:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-08 16:01:09,049 : WARN  : ModalContext :  : Node : Missing Value : 4:22 : Column "UserId" still contains missing values.
+2024-06-08 16:01:09,114 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 4:19 : Only the first 2500 of 73861 rows are displayed.
+2024-06-08 16:01:09,126 : WARN  : ModalContext :  : Node : String Manipulation : 4:57 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+2024-06-09 12:33:42,811 : WARN  : ModalContext :  : Node : Statistics : 3:382 : Maximum number of unique possible values (1000) exceeds for column(s): "IBU","Color","Size/boilSize","ABV","OG"
+2024-06-09 12:35:56,597 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 12:35:56,597 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 12:35:56,598 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 12:35:56,598 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 12:35:56,599 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 12:35:56,599 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 12:35:56,600 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-09 12:35:56,601 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-09 12:35:56,604 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:241 : Can't calculate Mean Absolute Percentage error: target value is 0! Row1248
+2024-06-09 12:35:56,621 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-09 12:36:32,383 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-09 12:36:32,384 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-09 12:36:32,385 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-09 12:36:32,386 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-09 12:36:32,386 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-09 12:36:32,387 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-09 12:36:32,428 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-09 12:36:32,428 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-09 12:43:07,384 : WARN  : main :  : LongStartupHandler :  :  : Startup took 90713 seconds.
+2024-06-09 15:10:26,851 : WARN  : ModalContext :  : Node : GroupBy : 5:7 : No grouping column included. Aggregate complete table.
+2024-06-09 15:10:26,852 : WARN  : ModalContext :  : Node : GroupBy : 5:7 : No grouping column included. Aggregate complete table.
+2024-06-09 15:10:26,852 : WARN  : ModalContext :  : Node : GroupBy : 5:6 : No grouping column included. Aggregate complete table.
+2024-06-09 15:10:26,853 : WARN  : ModalContext :  : Node : GroupBy : 5:6 : No grouping column included. Aggregate complete table.
+2024-06-09 15:10:27,059 : WARN  : ModalContext :  : Node : Missing Value : 5:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-09 15:10:27,073 : WARN  : ModalContext :  : Node : Missing Value : 5:22 : Column "UserId" still contains missing values.
+2024-06-09 15:10:27,180 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 5:19 : Only the first 2500 of 73861 rows are displayed.
+2024-06-09 15:10:27,199 : WARN  : ModalContext :  : Node : String Manipulation : 5:57 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+2024-06-09 15:11:50,969 : WARN  : KNIME-Worker-32-Missing Value 4:252 :  : Node : Missing Value : 4:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-09 15:18:56,793 : WARN  : comm-pool-thread-8 :  : Node : X-Partitioner : 4:179 : Class column 'Class' does not exist in input table
+2024-06-09 15:18:59,144 : WARN  : KNIME-Worker-64-Counting Loop Start 4:175 :  : Node : X-Partitioner : 4:179 : Class column 'Class' does not exist in input table
+2024-06-09 15:23:09,950 : WARN  : main :  : Node : X-Aggregator : 4:178 : No such column: Class
+2024-06-09 15:23:17,258 : WARN  : main :  : Node : X-Aggregator : 4:178 : No such column: Class
+2024-06-09 15:23:29,012 : WARN  : main :  : Node : X-Aggregator : 4:178 : No such column: Class
+2024-06-09 15:23:35,426 : WARN  : main :  : Node : Scorer : 4:177 : Column 'Class' not found.
+2024-06-09 17:03:47,736 : WARN  : comm-pool-thread-22 :  : Node : CVParameterSelection (3.7) : 4:190 : Target column Class not found in DataTableSpec.
+2024-06-09 17:13:43,508 : WARN  : KNIME-Worker-106-CVParameterSelection (3.7) 4:190 :  : Node : CVParameterSelection (3.7) : 4:190 : Execution canceled
+2024-06-09 17:13:46,007 : WARN  : KNIME-Worker-107-CVParameterSelection (3.7) 4:190 :  : Node : CVParameterSelection (3.7) : 4:190 : Execution canceled
+2024-06-09 19:35:00,544 : WARN  : ModalContext :  : Node : Statistics : 3:382 : Maximum number of unique possible values (1000) exceeds for column(s): "IBU","Color","Size/boilSize","ABV","OG"
+2024-06-09 19:37:12,299 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 19:37:12,299 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 19:37:12,300 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 19:37:12,301 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 19:37:12,302 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 19:37:12,302 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 19:37:12,303 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-09 19:37:12,303 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-09 19:37:12,306 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:241 : Can't calculate Mean Absolute Percentage error: target value is 0! Row1248
+2024-06-09 19:37:12,318 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-09 19:37:47,407 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-09 19:37:47,407 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-09 19:37:47,410 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-09 19:37:47,410 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-09 19:37:47,411 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-09 19:37:47,411 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-09 19:37:47,443 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-09 19:37:47,443 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-09 19:39:20,626 : WARN  : main :  : LongStartupHandler :  :  : Startup took 90417 seconds.
+2024-06-09 19:39:51,435 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-09 19:39:51,436 : WARN  : ModalContext :  : Node : GroupBy : 4:7 : No grouping column included. Aggregate complete table.
+2024-06-09 19:39:51,437 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-09 19:39:51,437 : WARN  : ModalContext :  : Node : GroupBy : 4:6 : No grouping column included. Aggregate complete table.
+2024-06-09 19:39:51,563 : WARN  : ModalContext :  : Node : Missing Value : 4:17 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-09 19:39:51,573 : WARN  : ModalContext :  : Node : Missing Value : 4:22 : Column "UserId" still contains missing values.
+2024-06-09 19:39:51,642 : WARN  : ModalContext :  : Node : Interactive Histogram (legacy) : 4:19 : Only the first 2500 of 73861 rows are displayed.
+2024-06-09 19:39:51,653 : WARN  : ModalContext :  : Node : String Manipulation : 4:57 : Problems in 2990 rows. First error: Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+Evaluation of expression failed for row "Row2_Row6": String "N/A" cannot be cast to double.
+2024-06-09 19:40:04,303 : WARN  : ModalContext :  : Node : Missing Value : 5:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-09 19:44:06,103 : WARN  : comm-pool-thread-4 :  : Node : CVParameterSelection (3.7) : 5:405 : No target column specified. Target column was set to Size/boilSize
+2024-06-09 19:48:23,460 : WARN  : comm-pool-thread-6 :  : Node : Scorer : 5:407 : Column 'Prediction (Style)' not found.
+2024-06-09 19:51:39,212 : WARN  : main :  : Node : Scorer : 5:407 : Column 'Prediction (Style)' not found.
+2024-06-09 20:18:09,004 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-09 20:27:58,786 : WARN  : ModalContext :  : Node : Statistics : 4:382 : Maximum number of unique possible values (1000) exceeds for column(s): "IBU","Color","Size/boilSize","ABV","OG"
+2024-06-09 20:30:10,153 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 20:30:10,153 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 20:30:10,154 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 20:30:10,154 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 20:30:10,155 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 20:30:10,156 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-09 20:30:10,156 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-09 20:30:10,157 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-09 20:30:10,158 : WARN  : ModalContext :  : Node : Numeric Scorer : 4:241 : Can't calculate Mean Absolute Percentage error: target value is 0! Row1248
+2024-06-09 20:30:10,166 : WARN  : ModalContext :  : Node : Missing Value : 4:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-09 20:30:45,681 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:261 : Some columns are ignored: bounds missing.
+2024-06-09 20:30:45,681 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:261 : Some columns are ignored: bounds missing.
+2024-06-09 20:30:45,682 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:264 : Some columns are ignored: bounds missing.
+2024-06-09 20:30:45,682 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:264 : Some columns are ignored: bounds missing.
+2024-06-09 20:30:45,683 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:265 : Some columns are ignored: bounds missing.
+2024-06-09 20:30:45,683 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:265 : Some columns are ignored: bounds missing.
+2024-06-09 20:30:45,712 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:260 : Some columns are ignored: bounds missing.
+2024-06-09 20:30:45,713 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:260 : Some columns are ignored: bounds missing.
+2024-06-09 21:05:37,871 : ERROR : KNIME-Worker-17-Decision Tree Learner 3:417 :  : Node : Decision Tree Learner : 3:417 : Execute failed: Cannot invoke "org.knime.base.node.mine.decisiontree2.model.DecisionTreeNode.getOwnIndex()" because "children[i]" is null
+java.lang.RuntimeException: Cannot invoke "org.knime.base.node.mine.decisiontree2.model.DecisionTreeNode.getOwnIndex()" because "children[i]" is null
+	at org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeModel2.buildTree(DecisionTreeLearnerNodeModel2.java:826)
+	at org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeModel2.execute(DecisionTreeLearnerNodeModel2.java:535)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-09 21:31:58,671 : WARN  : comm-pool-thread-25 :  : Node : Tree Ensemble Learner : 3:418 : No configuration available
+2024-06-10 08:11:56,603 : WARN  : ModalContext :  : Node : Statistics : 3:382 : Maximum number of unique possible values (1000) exceeds for column(s): "IBU","Color","Size/boilSize","ABV","OG"
+2024-06-10 08:14:11,527 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:14:11,528 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:14:11,529 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:14:11,529 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:14:11,532 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:14:11,532 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:14:11,533 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-10 08:14:11,533 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-10 08:14:11,536 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:241 : Can't calculate Mean Absolute Percentage error: target value is 0! Row1248
+2024-06-10 08:14:11,550 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-10 08:14:46,735 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-10 08:14:46,735 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-10 08:14:46,737 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-10 08:14:46,737 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-10 08:14:46,738 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-10 08:14:46,738 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-10 08:14:46,769 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-10 08:14:46,770 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.

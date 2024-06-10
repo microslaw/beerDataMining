@@ -10,7 +10,7 @@
         <entry key="samplingMethod" type="xstring" value="Random"/>
         <entry key="fraction" type="xdouble" value="0.7"/>
         <entry key="count" type="xint" value="100"/>
-        <entry key="random_seed" type="xstring" isnull="true" value=""/>
+        <entry key="random_seed" type="xstring" value="717938239928"/>
         <entry key="class_column" type="xstring" value="BrewMethod"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -47,6 +47,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="304fa73b-9a85-4079-b430-a813e73eb78c"/>
+        <entry key="file_store_id" type="xstring" value="3f7207b4-5b50-4d81-9309-751214cc960a"/>
     </config>
 </config>
