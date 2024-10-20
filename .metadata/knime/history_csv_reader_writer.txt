@@ -1,4 +1,0 @@
-C:\projects\beerDataMining\final\prep_dataset.csv
-C:\projects\beerDataMining\projekt\prep_dataset.csv
-prep_dataset
-C:\projects\beerDataMining\projekt\joined.csv
