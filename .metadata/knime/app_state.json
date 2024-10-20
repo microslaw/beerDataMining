@@ -1,14 +1,6 @@
 {
   "version" : "5.2.3.v202403211026",
   "projects" : [ {
-    "name" : "models",
-    "active" : true,
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "relativePath" : "models"
-    }
-  }, {
     "name" : "projekt",
     "active" : false,
     "origin" : {
@@ -18,7 +10,7 @@
     }
   }, {
     "name" : "final",
-    "active" : false,
+    "active" : true,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",

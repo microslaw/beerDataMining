@@ -66,12 +66,12 @@
             {
                 "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
                 "nodename": "Column Filter",
-                "nrexecs": 9,
+                "nrexecs": 10,
                 "nrfails": 0,
                 "exectime": 3,
                 "nrcreated": 3,
-                "successor": "org.knime.base.node.switches.emptytableswitch.EmptyTableSwitchNodeFactory",
-                "successornodename": "Empty Table Switch"
+                "successor": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
+                "successornodename": "Partitioning"
             },
             {
                 "id": "org.knime.base.views.node.tableview.TableViewNodeFactory",
@@ -126,10 +126,10 @@
             {
                 "id": "org.knime.base.views.node.scatterplotmatrix.ScatterPlotMatrixNodeFactory",
                 "nodename": "Scatter Plot Matrix",
-                "nrexecs": 6,
+                "nrexecs": 7,
                 "nrfails": 0,
-                "exectime": 2,
-                "nrcreated": 0,
+                "exectime": 3,
+                "nrcreated": 1,
                 "successor": "n/a",
                 "successornodename": "n/a"
             },
@@ -236,9 +236,9 @@
             {
                 "id": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory",
                 "nodename": "Scorer",
-                "nrexecs": 68,
+                "nrexecs": 82,
                 "nrfails": 0,
-                "exectime": 2859,
+                "exectime": 2984,
                 "nrcreated": 0,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -256,9 +256,9 @@
             {
                 "id": "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory",
                 "nodename": "Decision Tree Predictor",
-                "nrexecs": 20,
+                "nrexecs": 22,
                 "nrfails": 0,
-                "exectime": 86661,
+                "exectime": 87053,
                 "nrcreated": 0,
                 "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory",
                 "successornodename": "Scorer"
@@ -266,9 +266,9 @@
             {
                 "id": "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3",
                 "nodename": "Decision Tree Learner",
-                "nrexecs": 20,
+                "nrexecs": 22,
                 "nrfails": 1,
-                "exectime": 130784,
+                "exectime": 132319,
                 "nrcreated": 0,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -276,9 +276,9 @@
             {
                 "id": "org.knime.base.views.node.scatterplot.ScatterPlotNodeFactory",
                 "nodename": "Scatter Plot",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 6,
+                "exectime": 8,
                 "nrcreated": 3,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -316,9 +316,9 @@
             {
                 "id": "org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory",
                 "nodename": "Weka Predictor (3.7)",
-                "nrexecs": 42,
+                "nrexecs": 44,
                 "nrfails": 0,
-                "exectime": 161969,
+                "exectime": 163459,
                 "nrcreated": 0,
                 "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory",
                 "successornodename": "Scorer"
@@ -366,9 +366,9 @@
             {
                 "id": "org.knime.ext.weka37.classifier.WekaClassifierNodeFactory#Bagging (3.7)",
                 "nodename": "Bagging (3.7)",
-                "nrexecs": 22,
+                "nrexecs": 24,
                 "nrfails": 1,
-                "exectime": 321409,
+                "exectime": 331824,
                 "nrcreated": 0,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -386,12 +386,12 @@
             {
                 "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
                 "nodename": "Partitioning",
-                "nrexecs": 50,
+                "nrexecs": 58,
                 "nrfails": 0,
-                "exectime": 2994,
+                "exectime": 3905,
                 "nrcreated": 1,
-                "successor": "org.knime.ext.weka37.classifier.WekaClassifierNodeFactory#CVParameterSelection (3.7)",
-                "successornodename": "CVParameterSelection (3.7)"
+                "successor": "org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeFactory4",
+                "successornodename": "Logistic Regression Learner"
             },
             {
                 "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory",
@@ -512,6 +512,66 @@
                 "nrcreated": 1,
                 "successor": "n/a",
                 "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.learner.regression.TreeEnsembleRegressionLearnerNodeFactory",
+                "nodename": "Tree Ensemble Learner (Regression)",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 13404,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.treeensemble2.node.predictor.classification.TreeEnsembleClassificationPredictorNodeFactory2",
+                "successornodename": "Tree Ensemble Predictor"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.statistics.TreeEnsembleStatisticsNodeFactory",
+                "nodename": "Tree Ensemble Statistics",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 3199,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.predictor.classification.TreeEnsembleClassificationPredictorNodeFactory2",
+                "nodename": "Tree Ensemble Predictor",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory",
+                "successornodename": "Numeric Scorer"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.logistic.predictor.LogisticRegressionPredictorNodeFactory",
+                "nodename": "Logistic Regression Predictor",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 257,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory",
+                "successornodename": "Scorer"
+            },
+            {
+                "id": "org.knime.base.node.mine.knn.KnnNodeFactory2",
+                "nodename": "K Nearest Neighbor",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 5583,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory",
+                "successornodename": "Scorer"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeFactory4",
+                "nodename": "Logistic Regression Learner",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 11390,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.regression.logistic.predictor.LogisticRegressionPredictorNodeFactory",
+                "successornodename": "Logistic Regression Predictor"
             }
         ],
         "metaNodes": {
@@ -519,12 +579,12 @@
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 45,
+            "WEB_UI": 53,
             "WEB_UI_HUB": 4
         }
     },
-    "uptime": 6631995,
-    "workflowsOpened": 18,
+    "uptime": 6846709,
+    "workflowsOpened": 20,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
@@ -532,9 +592,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none",
-    "launches": 9,
+    "launches": 11,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 391239,
-    "crashes": 2,
+    "timeSinceLastStart": 14577095,
+    "crashes": 3,
     "properlyShutDown": true
 }

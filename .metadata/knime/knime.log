@@ -1310,3 +1310,138 @@ java.lang.RuntimeException: Cannot invoke "org.knime.base.node.mine.decisiontree
 2024-06-10 08:14:46,738 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
 2024-06-10 08:14:46,769 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
 2024-06-10 08:14:46,770 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-10 08:22:16,519 : WARN  : ModalContext :  : Node : Statistics : 3:382 : Maximum number of unique possible values (1000) exceeds for column(s): "IBU","Color","Size/boilSize","ABV","OG"
+2024-06-10 08:24:26,507 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:24:26,508 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:188 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:24:26,509 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:24:26,510 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:189 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:24:26,515 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:24:26,516 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:190 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2024-06-10 08:24:26,518 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-10 08:24:26,519 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:191 : Some columns are ignored: too many/missing nominal values.
+2024-06-10 08:24:26,523 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:241 : Can't calculate Mean Absolute Percentage error: target value is 0! Row1248
+2024-06-10 08:24:26,537 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-10 08:25:00,261 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-10 08:25:00,261 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:261 : Some columns are ignored: bounds missing.
+2024-06-10 08:25:00,263 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-10 08:25:00,263 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:264 : Some columns are ignored: bounds missing.
+2024-06-10 08:25:00,264 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-10 08:25:00,265 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:265 : Some columns are ignored: bounds missing.
+2024-06-10 08:25:00,301 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-10 08:25:00,301 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:260 : Some columns are ignored: bounds missing.
+2024-06-10 08:47:12,256 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-10 08:52:40,496 : WARN  : comm-pool-thread-3 :  : Node : Tree Ensemble Learner (Regression) : 3:418 : No configuration available
+2024-06-10 09:00:55,200 : WARN  : comm-pool-thread-12 :  : Node : Tree Ensemble Predictor : 3:422 : Can't apply regression model for classification tasks
+2024-06-10 09:01:31,082 : WARN  : main :  : Node : Tree Ensemble Predictor : 3:422 : Can't apply regression model for classification tasks
+2024-06-10 09:02:05,752 : WARN  : main :  : Node : Tree Ensemble Predictor : 3:422 : Can't apply regression model for classification tasks
+2024-06-10 09:02:19,992 : WARN  : comm-pool-thread-12 :  : Node : Tree Ensemble Predictor : 3:422 : Can't apply regression model for classification tasks
+2024-06-10 09:02:28,847 : WARN  : comm-pool-thread-12 :  : Node : Tree Ensemble Predictor : 3:422 : Can't apply regression model for classification tasks
+2024-06-10 09:02:30,864 : WARN  : KNIME-Worker-17-Partitioning 3:419 :  : Node : Tree Ensemble Predictor : 3:422 : Can't apply regression model for classification tasks
+2024-06-10 09:02:35,912 : WARN  : KNIME-Worker-18-Tree Ensemble Learner (Regression) 3:418 :  : Node : Tree Ensemble Predictor : 3:422 : Can't apply regression model for classification tasks
+2024-06-10 09:05:33,327 : WARN  : KNIME-Worker-34-Logistic Regression Learner 3:420 :  : Node : Logistic Regression Learner : 3:420 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2024-06-10 09:06:05,226 : ERROR : KNIME-Worker-34-Logistic Regression Learner 3:420 :  : Node : Logistic Regression Learner : 3:420 : Execute failed: The logistic regression model cannot be computed. See section "Potential Errors and Error Handling" in the node description for possible error causes and fixes
+java.lang.RuntimeException: The logistic regression model cannot be computed. See section "Potential Errors and Error Handling" in the node description for possible error causes and fixes
+	at org.knime.base.node.mine.regression.logistic.learner4.IrlsLearner.learn(IrlsLearner.java:379)
+	at org.knime.base.node.mine.regression.logistic.learner4.LogRegCoordinator.learn(LogRegCoordinator.java:198)
+	at org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeModel.execute(LogRegLearnerNodeModel.java:140)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-10 09:06:55,262 : WARN  : KNIME-Worker-40-Logistic Regression Learner 3:420 :  : Node : Logistic Regression Learner : 3:420 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2024-06-10 09:07:41,225 : WARN  : comm-pool-thread-15 :  : Node : K Nearest Neighbor : 3:424 : Please choose a valid class column
+2024-06-10 09:07:41,852 : WARN  : KNIME-Worker-31-Partitioning 3:423 :  : Node : K Nearest Neighbor : 3:424 : Please choose a valid class column
+2024-06-10 09:07:50,003 : WARN  : main :  : Node : K Nearest Neighbor : 3:424 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:07:59,540 : WARN  : comm-pool-thread-15 :  : Node : Scorer : 3:426 : Column 'Prediction (Style)' not found.
+2024-06-10 09:08:00,140 : WARN  : KNIME-Worker-30-K Nearest Neighbor 3:424 :  : Node : K Nearest Neighbor : 3:424 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:08:01,332 : WARN  : KNIME-Worker-30-K Nearest Neighbor 3:424 :  : Node : Scorer : 3:426 : Column 'Prediction (Style)' not found.
+2024-06-10 09:09:04,319 : WARN  : comm-pool-thread-15 :  : Node : SVM Learner : 3:425 : Class column not set
+2024-06-10 09:09:23,548 : WARN  : KNIME-Worker-42-Partitioning 3:427 :  : Node : SVM Learner : 3:425 : Class column not set
+2024-06-10 09:09:32,811 : WARN  : main :  : Node : SVM Learner : 3:425 : Rejecting 1 column(s) due to incompatible type: [BrewMethod]
+2024-06-10 09:09:34,052 : WARN  : KNIME-Worker-43-SVM Learner 3:425 :  : Node : SVM Learner : 3:425 : Rejecting 1 column(s) due to incompatible type: [BrewMethod]
+2024-06-10 09:10:06,318 : WARN  : main :  : WrappedNodeDialog : SVM Predictor : 3:428 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2240)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor213.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:167)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:138)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:204)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-06-10 09:16:53,568 : WARN  : ModalContext :  : Node : Missing Value : 3:252 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-06-10 09:17:26,040 : WARN  : comm-pool-thread-3 :  : Node : K Nearest Neighbor : 3:418 : Please choose a valid class column
+2024-06-10 09:17:28,649 : WARN  : KNIME-Worker-1-Partitioning 3:420 :  : Node : K Nearest Neighbor : 3:418 : Please choose a valid class column
+2024-06-10 09:17:33,192 : WARN  : main :  : Node : K Nearest Neighbor : 3:418 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:17:33,193 : WARN  : main :  : Node : Scorer : 3:419 : Column 'Prediction (Style)' not found.
+2024-06-10 09:17:34,379 : WARN  : KNIME-Worker-1-K Nearest Neighbor 3:418 :  : Node : K Nearest Neighbor : 3:418 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:17:35,463 : WARN  : KNIME-Worker-1-K Nearest Neighbor 3:418 :  : Node : Scorer : 3:419 : Column 'Prediction (Style)' not found.
+2024-06-10 09:18:12,603 : WARN  : main :  : Node : K Nearest Neighbor : 3:418 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:18:13,972 : WARN  : KNIME-Worker-1-K Nearest Neighbor 3:418 :  : Node : K Nearest Neighbor : 3:418 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:18:32,930 : WARN  : main :  : Node : K Nearest Neighbor : 3:418 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:18:34,382 : WARN  : KNIME-Worker-1-K Nearest Neighbor 3:418 :  : Node : K Nearest Neighbor : 3:418 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:19:26,956 : WARN  : KNIME-Worker-2-Logistic Regression Learner 3:422 :  : Node : Logistic Regression Learner : 3:422 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2024-06-10 09:19:29,474 : WARN  : comm-pool-thread-2 :  : Node : Scorer : 3:424 : Column 'Class [kNN]' not found.
+2024-06-10 09:20:45,523 : WARN  : comm-pool-thread-2 :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:20:49,174 : WARN  : KNIME-Worker-4-Partitioning 3:425 :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:20:49,175 : WARN  : KNIME-Worker-10-K Nearest Neighbor 3:431 :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:20:56,326 : WARN  : KNIME-Worker-1-Logistic Regression Learner 3:426 :  : Node : Logistic Regression Learner : 3:426 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2024-06-10 09:21:08,540 : WARN  : main :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:21:13,484 : WARN  : main :  : Node : Scorer : 3:428 : Column 'Prediction (Style)' not found.
+2024-06-10 09:21:16,182 : WARN  : KNIME-Worker-13-Logistic Regression Learner 3:426 :  : Node : Logistic Regression Learner : 3:426 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2024-06-10 09:21:16,188 : WARN  : KNIME-Worker-8-K Nearest Neighbor 3:431 :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:21:16,240 : WARN  : KNIME-Worker-12-Logistic Regression Predictor 3:427 :  : Node : Scorer : 3:428 : Column 'Prediction (Style)' not found.
+2024-06-10 09:21:42,981 : WARN  : main :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:21:43,896 : WARN  : KNIME-Worker-10-K Nearest Neighbor 3:431 :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:21:54,935 : WARN  : main :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
+2024-06-10 09:21:55,713 : WARN  : KNIME-Worker-5-K Nearest Neighbor 3:431 :  : Node : K Nearest Neighbor : 3:431 : Input table contains more than one non-numeric column; they will be ignored.
